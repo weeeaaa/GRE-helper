@@ -1,0 +1,55 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1792305998525,
+      "tag": "0000_white_baron_strucker",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1792322851011,
+      "tag": "0001_parallel_killraven",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1792383325117,
+      "tag": "0002_reflective_scorpion",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "6",
+      "when": 1792487385728,
+      "tag": "0003_absent_nico_minoru",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "6",
+      "when": 1792487929865,
+      "tag": "0004_superb_luckman",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "6",
+      "when": 1792508330878,
+      "tag": "0005_wonderful_may_parker",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "6",
+      "when": 1792508678720,
+      "tag": "0006_panoramic_daredevil",
+      "breakpoints": true
+    }
+  ]
+}

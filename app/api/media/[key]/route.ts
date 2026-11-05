@@ -1,0 +1,3 @@
+import {env} from 'cloudflare:workers';
+import {identity,failure} from '../../../../lib/store';
+export async function GET(req:Request,{params}:{params:Promise<{key:string}>}){try{const user=identity(req),{key}=await params;if(!/^[a-f0-9-]{36}$/.test(key))return new Response('Not found',{status:404});const obj=await env.BUCKET.get(user+'/'+key);if(!obj)return new Response('Not found',{status:404});return new Response(obj.body,{headers:{'Content-Type':obj.httpMetadata?.contentType??'image/png','Cache-Control':'private, max-age=3600','X-Content-Type-Options':'nosniff'}});}catch(e){return failure(e);}}

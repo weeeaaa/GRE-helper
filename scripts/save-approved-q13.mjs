@@ -1,0 +1,21 @@
+import fs from 'node:fs/promises';
+import assert from 'node:assert/strict';
+const base='http://127.0.0.1:5188';
+const login=await fetch(base+'/signin-with-chatgpt?return_to=/',{redirect:'manual'});
+const cookie=login.headers.getSetCookie().map(c=>c.split(';')[0]).join('; ');
+const call=(path,options={})=>fetch(base+path,{...options,headers:{Cookie:cookie,Origin:base,...options.headers}});
+let r=await call('/api/notes');assert.equal(r.status,200);const before=await r.json();
+const id='Q20261105_13';
+if(before.some(n=>n.id===id)){console.log('Already saved: '+id);process.exit(0);}
+const bytes=await fs.readFile('C:/Users/USER/AppData/Local/Temp/codex-clipboard-231cd0d1-ae0c-4fd5-bd2c-ecd327eb2db3.png');
+const fd=new FormData();fd.append('file',new Blob([bytes],{type:'image/png'}),'GRE-Q13-original.png');
+r=await call('/api/upload',{method:'POST',body:fd});assert.equal(r.status,200);const image=await r.json();
+const draft=await fs.readFile('../../outputs/pending-gre/20261105-q13.md','utf8');
+const explanation=draft.split('## 訂正\n')[1].split('## 待確認')[0].trim();
+const prompt='a, b, and c are positive integers.\n\nQuantity A: (a+c)/(b+c)\nQuantity B: a/b\n\n(A) Quantity A is greater\n(B) Quantity B is greater\n(C) The two quantities are equal\n(D) The relationship cannot be determined from the information given.';
+const note={id,title:'分子、分母同加正數：真分數的迷思',section:'Quan',category:'觀念加強',answer:'D（截圖答案，已獨立驗算）',source:'2026-11-05 上傳截圖｜題目13｜原答A｜用時1m 7s',images:[image.url],blocks:[{type:'text',text:explanation}],vocabulary:'',options:'',clues:'',commentary:'',reason:'我直接帶A<B的數字進入看 以為只有可能是真份數 掉入迷思',original:'原作答：A；截圖正確答案：D；用時1m 7s。\n'+prompt+'\n\n錯因原話：我直接帶A<B的數字進入看 以為只有可能是真份數 掉入迷思',revision:0,reviewQuestion:prompt,reviewAnswer:'D'};
+r=await call('/api/notes',{method:'PUT',headers:{'Content-Type':'application/json'},body:JSON.stringify(note)});assert.equal(r.status,200);const saved=await r.json();
+r=await call('/api/notes');const after=await r.json();assert.equal(after.length,before.length+1);assert.deepEqual(after.find(n=>n.id===id),saved);for(const old of before)assert.deepEqual(after.find(n=>n.id===old.id),old);
+r=await call(image.url);assert.equal(r.status,200);assert.deepEqual(Buffer.from(await r.arrayBuffer()),bytes);
+await fs.writeFile('../../outputs/pending-gre/20261105-q13-saved.json',JSON.stringify(saved,null,2));
+console.log(JSON.stringify({saved:id,total:after.length,category:saved.category,revision:saved.revision,originalNotesUnchanged:true,imageVerified:true}));

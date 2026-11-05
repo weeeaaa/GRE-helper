@@ -1,0 +1,4 @@
+import {env} from 'cloudflare:workers';
+import {identity,sameOrigin,failure} from '../../../lib/store';
+export async function GET(req:Request){try{const user=identity(req);const rows=await env.DB.prepare('SELECT id FROM vocab_favorites WHERE user_id=?').bind(user).all<{id:string}>();return Response.json(rows.results.map(r=>r.id));}catch(e){return failure(e);}}
+export async function PUT(req:Request){try{sameOrigin(req);const user=identity(req),body=await req.json() as {id:string;favorite:boolean};if(typeof body.id!=='string'||!body.id||body.id.length>1000||typeof body.favorite!=='boolean')throw Error('INVALID_FAVORITE');if(body.favorite)await env.DB.prepare('INSERT OR IGNORE INTO vocab_favorites(user_id,id) VALUES(?,?)').bind(user,body.id).run();else await env.DB.prepare('DELETE FROM vocab_favorites WHERE user_id=? AND id=?').bind(user,body.id).run();return Response.json({ok:true});}catch(e){return failure(e);}}

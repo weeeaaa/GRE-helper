@@ -1,0 +1,11 @@
+import {readFileSync,writeFileSync} from 'node:fs';
+import {createHighlightsPdf} from './app/highlights-pdf.ts';
+import {PDFDocument} from 'pdf-lib';
+const original=readFileSync('public/exports/gre-note.pdf');
+const bytes=await createHighlightsPdf(original,readFileSync('public/fonts/NotoSansCJKtc-Bold.otf'),[{id:'test',title:'轉折句判斷',content:'先看前後語意，再找轉折線索。\nalthough / yet / nonetheless',revision:1}]);
+const base=await PDFDocument.load(original),result=await PDFDocument.load(bytes);
+if(result.getPageCount()!==base.getPageCount()+1)throw Error('Page preservation failed');
+writeFileSync('../highlights-test.pdf',bytes);
+const response=await fetch('http://127.0.0.1:5188/api/highlights');
+if(!response.ok)throw Error('GET failed '+response.status);
+console.log('PDF retains all original pages; new content appended. API GET:',response.status);

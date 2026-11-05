@@ -1,0 +1,350 @@
+{
+  "E001": {
+    "prompt": "Samuel borrowed $5,000 to help get his business started. He took out a 9-month loan with simple interest, based on an annual interest rate of 6%. What was the total amount Sam was required to pay back at the end of the loan period?",
+    "options": [
+      "$5,054",
+      "$5,225",
+      "$5,300",
+      "$5,600",
+      "$5,750"
+    ],
+    "key": "B",
+    "passage": "",
+    "groups": 1
+  },
+  "E002": {
+    "prompt": "According to surveys at a company, 20 percent of the employees owned cell phones in 1994, and 60 percent of the employees owned cell phones in 1998. From 1994 to 1998, what was the percent increase in the fraction of employees who owned cell phones?",
+    "options": [
+      "3%",
+      "20%",
+      "30%",
+      "200%",
+      "300%"
+    ],
+    "key": "D",
+    "passage": "",
+    "groups": 1
+  },
+  "E003": {
+    "prompt": "It cost a certain company a total of $7,150.00 to make and sell 6,500 widgets. If the company sold each of the 6,500 widgets for $2.50, what was the company's profit per widget? (Profit is equal to the selling price minus the cost.)",
+    "options": [],
+    "key": "1.4",
+    "passage": "",
+    "groups": 1
+  },
+  "E004": {
+    "prompt": "Stations A, M and B are located along a certain train route, and Station M is between A and B. At noon, a train engine passed Station A traveling at a constant speed of 80 kilometers per hour toward Station B. Also at noon, another train engine passed Station B traveling at a constant speed of 60 kilometers per hour toward Station A. Both train engines passed Station M at the same time. What is the ratio of the distance along the route between Station A and M to the distance along the route between Station A and B?",
+    "options": [
+      "1/4",
+      "3/7",
+      "1/2",
+      "4/7",
+      "3/4"
+    ],
+    "key": "D",
+    "passage": "",
+    "groups": 1
+  },
+  "E005": {
+    "prompt": "Many legislators who helped Roosevelt shape the New Deal ______ the fact that emerging social problems affected every segment of the population; nonetheless, they often acted with a view to aiding only their own constituents.",
+    "options": [
+      "disregarded",
+      "bemoaned",
+      "ignored",
+      "disputed",
+      "downplayed"
+    ],
+    "key": "B",
+    "passage": "",
+    "groups": 1
+  },
+  "E006": {
+    "prompt": "Showing rare (i) ______, the leader angrily charged that legislators have tried to (ii) ______ government discussion of global warming even as extreme temperatures have set records across the world.",
+    "options": [
+      "ardor",
+      "cordiality",
+      "restraint",
+      "douse",
+      "expedite",
+      "publicize"
+    ],
+    "key": "CD",
+    "passage": "",
+    "groups": 2
+  },
+  "E007": {
+    "prompt": "History is about recognizing continuities and therefore the historian must (i) ______ stories that rope together the disparate worlds of past and present. But it is also true that honest history arises from a sense of (ii) ______. It is the experience of discontinuity that alerts us to the (iii) ______ of the past and sets us looking for narratives to capture that unfamiliar entity.",
+    "options": [
+      "weave",
+      "shun",
+      "untangle",
+      "interruptedness",
+      "powerlessness",
+      "imperiousness",
+      "inexorableness",
+      "strangeness",
+      "lucidity"
+    ],
+    "key": "ADH",
+    "passage": "",
+    "groups": 3
+  },
+  "E008": {
+    "prompt": "Why does the author note that people make inconsistent choices?",
+    "options": [
+      "To account for why people's stated intentions and their actual behavior often do not coincide.",
+      "To explain why most economists no longer adhere to the standard model of the rational economic agent.",
+      "To identify a prevailing theory among economists about people’s behavior.",
+      "To cast doubt on a particular assumption about people’s revealed preferences.",
+      "To suggest that economists should draw more heavily from behavioral economics and psychology."
+    ],
+    "key": "D",
+    "passage": "For good reasons, economists prefer to study people's revealed preferences; that is, to look at individuals' actual choices and decisions rather than their (sometimes deceptive) stated intentions or their subjective reports of likes and dislikes. Yet people's choices often bear a mixed relationship to their own happiness. Studies from behavioral economics and psychology find that people depart from the standard model of the rational economic agent in various ways: they make inconsistent choices, fail to learn from experience, and base their own satisfaction on how their situation compares with that of others. If people display bounded rationality when it comes to maximizing utility, then their choices do not necessarily reflect their \"true\" preferences, and an exclusive reliance on choices to infer what people desire loses some appeal.",
+    "groups": 1
+  },
+  "E009": {
+    "prompt": "In the context in which it appears, “mixed” most nearly means?",
+    "options": [
+      "ambiguous",
+      "combined",
+      "associated",
+      "convoluted",
+      "adulterated"
+    ],
+    "key": "D",
+    "passage": "For good reasons, economists prefer to study people's revealed preferences; that is, to look at individuals' actual choices and decisions rather than their (sometimes deceptive) stated intentions or their subjective reports of likes and dislikes. Yet people's choices often bear a mixed relationship to their own happiness. Studies from behavioral economics and psychology find that people depart from the standard model of the rational economic agent in various ways: they make inconsistent choices, fail to learn from experience, and base their own satisfaction on how their situation compares with that of others. If people display bounded rationality when it comes to maximizing utility, then their choices do not necessarily reflect their \"true\" preferences, and an exclusive reliance on choices to infer what people desire loses some appeal.",
+    "groups": 1
+  },
+  "E010": {
+    "prompt": "The CEO is gifted at shrouding a cutthroat ambition in ______. The ability to work constantly at impressing others without looking as if you are trying is a useful skill that eludes many businesspeople.",
+    "options": [
+      "tenacity",
+      "humility",
+      "nonchalance",
+      "sensitivity",
+      "insouciance",
+      "doggedness"
+    ],
+    "key": "CE",
+    "passage": "",
+    "groups": 1
+  },
+  "E011": {
+    "prompt": "What they see in Jimenez is the one candidate capable of decisive leadership, in stark contrast to Diaz, whose team in office has been marred by ______.",
+    "options": [
+      "defensiveness",
+      "corruption",
+      "irresolution",
+      "vacillation",
+      "belligerence",
+      "pugnacity"
+    ],
+    "key": "CD",
+    "passage": "",
+    "groups": 1
+  },
+  "E012": {
+    "prompt": "Elizabethan actor Richard Tarlton was so ______ in appearance that a mere glimpse of his grinning face peeping through a curtain was enough to trigger prolonged peals of laughter.",
+    "options": [
+      "animated",
+      "risible",
+      "comely",
+      "ludicrous",
+      "handsome",
+      "anomalous"
+    ],
+    "key": "BD",
+    "passage": "",
+    "groups": 1
+  },
+  "E013": {
+    "prompt": "Some consider the theorem Emmy Noether first published in 1918 to be as important as Einstein's theory of relativity, since much of today's vanguard research in physics is ______ Noether's theorem.",
+    "options": [
+      "contradicted by",
+      "undergirded by",
+      "incompatible with",
+      "dependent on",
+      "devoted to",
+      "elucidated by"
+    ],
+    "key": "BD",
+    "passage": "",
+    "groups": 1
+  },
+  "E014": {
+    "prompt": "As presented in the passage, MeGill’s account of the formation of Mars's northern basin differs from the others mentioned in that it alone",
+    "options": [
+      "explains the formation of certain northern bedrock features.",
+      "does not specify the force that caused the northern basin to be lower than its surroundings.",
+      "takes the northern basin to be a landform that is not analogous to any found on Earth.",
+      "denies that features around the northern basin are the result of tectonic activity.",
+      "attributes the creation of the northern lowlands to processes occurring within the planet."
+    ],
+    "key": "B",
+    "passage": "What accounts for the low-lying, flat surface of Mars's north? On Earth's surface, higher and lower-lying areas have different types of crust one, thin and dense, is pulled toward Earth's center more strongly by gravity, and the planet's water naturally comes to sit over it, creating oceans. The processes that generate this oceanic crust drive plate tectonics. Is Mars's north similarly characterized by a sort of crust different from other areas of the planet? Some researchers do see signs of tectonic activity surrounding the northern basin that suggest that it was created through the formation of new crust, like ocean basins on Earth. However MeGill points to northern bedrock structures that predate the features said to mark the start of the tectonic process. MeGill instead believes that through some novel mechanism the ancient surface sank to its current depth as a single unit. This would explain why features around the basin's edge, which would have formed as the surface dropped, seem to be younger than structures at its floor. The third possibility is that the northern lowlands result from impacts. Some researchers suggest they formed as a series of big overlapping impact craters. Others, arguing that the odds against such a pattern of impacts are large, postulate a single event--the impact of an object bigger than any asteroid the solar system now contains.",
+    "groups": 1
+  },
+  "E015": {
+    "prompt": "Pearl millet possesses the unique genetic predisposition to withstand environmental stress and produce appreciable yield, cultivation on ______ soils notwithstanding.",
+    "options": [
+      "arable",
+      "fertilized",
+      "marginal",
+      "native",
+      "choice"
+    ],
+    "key": "C",
+    "passage": "",
+    "groups": 1
+  },
+  "E016": {
+    "prompt": "Observations from the Chandra X-ray Observatory give astronomers even more evidence that galaxies (i) ______ and that even their central supermassive black holes eventually (ii) ______.",
+    "options": [
+      "swell",
+      "coalesce",
+      "endure",
+      "merge",
+      "implode",
+      "deteriorate"
+    ],
+    "key": "BD",
+    "passage": "",
+    "groups": 2
+  },
+  "E017": {
+    "prompt": "The author suggests which of the following about the early British colonies in North America that failed?",
+    "options": [
+      "Their inhabitants' worldview was deeply affected by the encounter with native people and practices.",
+      "Their inhabitants experienced critical food shortages in part because their culture hindered their ability to exploit seasonally available resources.",
+      "Their longevity would have been greater had the inhabitants adopted more of the fishing technologies used by Native Americans."
+    ],
+    "key": "B",
+    "passage": "One of the reasons why many early British colonies in North America failed amid the New World's abundance was that the settlers mindset prevented them from living like the native inhabitants. From Native Americans, the settlers learned such skills as building brushwood weirs to trap fish, but they did not adopt the real key to success: mobility. The whole intellectual foundation of European civilization was fixity-a worldview profoundly different from that of Native Americans, who moved in response to changing food resources. Settlers were drawn to North America by tales of its extraordinary abundance, not realizing that that abundance is seasonal. Culture and ecological knowledge allowed Native Americans to exploit different food sources at different times of year.",
+    "groups": 1
+  },
+  "E018": {
+    "prompt": "The primary purpose of the passage is to?",
+    "options": [
+      "draw a contrast between nineteenth-century Breton costume and that of earlier periods.",
+      "discuss factors that distinguished Breton costume from the dress found elsewhere in France.",
+      "trace the history of a misconception about Breton costume.",
+      "explain why the use of Breton costume declined over time.",
+      "show why a common view about Breton costume was mistaken."
+    ],
+    "key": "E",
+    "passage": "The relative isolation of Brittany into the early twentieth century allowed its regional costumes and certain other aspects of local culture to endure longer there than such traditions did else where in France, though historical and ethnographic accounts of Breton costume have robustly challenged many outsiders' assumptions that there was a timeless Breton traditionalism in dress. Although it would come to be seen as the distinctive marker of Breton cultural continuity, the region's costume was in fact a modern and evolving phenomenon. It had been the relaxation of sumptuary laws (regulations restricting people from wearing clothing considered above their station) during the late-eighteenth-century French revolutionary period that first allowed rural populations to be more expressive in their dress. They did this by incorporating formerly restricted items, such as silks, ribbons, and lace, into peasant dress that had formerly been fairly uniform across France. Moreover, nineteenth-century mechanization of fabric production made cloth available more cheaply in Brittany, and expanded commerce brought at least the larger Breton towns into contact with styles from Paris. Innovation and even fashion thus shaped the forms of Brittany's purportedly traditional costume, which in fact varied by locality within Brittany. Nevertheless, tourists tended to view Breton costumes as a legible marker of cultural cohesion and continuity.",
+    "groups": 1
+  },
+  "E019": {
+    "prompt": "The passage indicates which of the following about outsiders’ views of Breton costumes?",
+    "options": [
+      "They have been more varied than many scholars have recognized.",
+      "They began to change as commerce expanded and more tourists were able to visit Brittany.",
+      "They have not tended to include an accurate sense of the local variations within Breton costume.",
+      "They have tended to be influenced by historical and ethnographic accounts that misrepresented the stylistic continuity of Breton costumes.",
+      "They began to influence the way Bretons themselves used elements like ribbon and lace to embellish their clothing."
+    ],
+    "key": "C",
+    "passage": "The relative isolation of Brittany into the early twentieth century allowed its regional costumes and certain other aspects of local culture to endure longer there than such traditions did else where in France, though historical and ethnographic accounts of Breton costume have robustly challenged many outsiders' assumptions that there was a timeless Breton traditionalism in dress. Although it would come to be seen as the distinctive marker of Breton cultural continuity, the region's costume was in fact a modern and evolving phenomenon. It had been the relaxation of sumptuary laws (regulations restricting people from wearing clothing considered above their station) during the late-eighteenth-century French revolutionary period that first allowed rural populations to be more expressive in their dress. They did this by incorporating formerly restricted items, such as silks, ribbons, and lace, into peasant dress that had formerly been fairly uniform across France. Moreover, nineteenth-century mechanization of fabric production made cloth available more cheaply in Brittany, and expanded commerce brought at least the larger Breton towns into contact with styles from Paris. Innovation and even fashion thus shaped the forms of Brittany's purportedly traditional costume, which in fact varied by locality within Brittany. Nevertheless, tourists tended to view Breton costumes as a legible marker of cultural cohesion and continuity.",
+    "groups": 1
+  },
+  "E020": {
+    "prompt": "Because there has been such a ______ of information about Jorge Luis Borges’ personal life, it is easy to understand the eager excitement generated by Borges, a selection from the diaries of his closest friend.",
+    "options": [
+      "stream",
+      "glut",
+      "paucity",
+      "dearth",
+      "surfeit",
+      "tangle"
+    ],
+    "key": "CD",
+    "passage": "",
+    "groups": 1
+  },
+  "E021": {
+    "prompt": "Piersma and Gill suggest that bar-tailed godwits—long-billed shorebirds of Eurasian and Alaskan tundra—rank among the most ______ of the long-range fliers, traveling 11,000 kilometers nonstop across the Pacific.",
+    "options": [
+      "unpredictable",
+      "versatile",
+      "erratic",
+      "unflagging",
+      "renowned",
+      "indefatigable"
+    ],
+    "key": "DF",
+    "passage": "",
+    "groups": 1
+  },
+  "E022": {
+    "prompt": "Because the political situation seriously impeded international communication, French scientific research was at that time uncharacteristically ______.",
+    "options": [
+      "biased",
+      "insular",
+      "competitive",
+      "misleading",
+      "deceptive",
+      "parochial"
+    ],
+    "key": "BF",
+    "passage": "",
+    "groups": 1
+  },
+  "E023": {
+    "prompt": "Which of the following, if true, most strongly indicates that the logic of the prediction is flawed?",
+    "options": [
+      "Such robots would need to be charged during the daytime.",
+      "Since policemen carry guns, the robots would incapacitate them just as efficiently as they incapacitate criminals",
+      "Because these robots could pose a hazard to cars at night, special barriers would have to be constructed between the paths of the robots and the lanes of traffic.",
+      "It's not obvious that reducing the number of criminals will always be beneficial.",
+      "If the proposal plan were successful such an outcome might ultimately result in a smaller and more efficient police force."
+    ],
+    "key": "B",
+    "passage": "According to futuristic writings in the 1960s , robots would soon drastically reduce crime. With night vision and ability to detect the chemicals involved in ballistics, such robots could be programed to paralyze anyone roaming the street at night with a gun: virtually all criminals fit that description. These criminals would be incapacitated and thus unable to resist an easy arrest.",
+    "groups": 1
+  },
+  "E024": {
+    "prompt": "In the context in which it appears, “shades” most nearly means",
+    "options": [
+      "reminders",
+      "nuances",
+      "obscurities",
+      "coverings",
+      "degrees"
+    ],
+    "key": "B",
+    "passage": "The more definitions a given noun has, the more valuable is each one. Multiple definitions, each subtly different from all the others, convey multiple shades of meaning. They expand the uses of the word; language is enriched, thought is widened, and interpretations increase or dilate to fill the potentialities of association. The very impossibility of absoluteness in the definition of certain nouns adds to the levels of connotation they may reach. The inner life of a writer often says more than most readers can know; the mind of a reader can discover truths that go beyond the intent or perhaps even the comprehension of the writer. And all of it finds expression because a word can mean many things.",
+    "groups": 1
+  },
+  "E025": {
+    "prompt": "Insects are often (i) ______ as the world's most versatile and (ii) ______ flying machines. Yet they shouldn't even be able to get off the ground, at least not according to a straightforward interpretation of the laws of aerodynamics.",
+    "options": [
+      "ridiculed",
+      "overlooked",
+      "touted",
+      "contrived",
+      "atypical",
+      "maneuverable"
+    ],
+    "key": "CF",
+    "passage": "",
+    "groups": 2
+  },
+  "E026": {
+    "prompt": "It is possible for humans to go for 40 or more hours without sleep and still be able to (i) ______ information acquired at the beginning of the sleepless period. Thus, when we are considering a role for sleep in human memory consolidation, we are referring to a possible role in the (ii) ______ encoding of information and optimizing of recall, not a (iii) ______ of sleep for recalling events of the prior day.",
+    "options": [
+      "legitimize",
+      "augment",
+      "disgorge",
+      "longer-term",
+      "acut",
+      "qualitative",
+      "requirement",
+      "surplus",
+      "facet"
+    ],
+    "key": "CDG",
+    "passage": "",
+    "groups": 3
+  }
+}

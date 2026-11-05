@@ -1,0 +1,5930 @@
+[
+  {
+    "id": "seed-0",
+    "kind": "同義",
+    "major": "",
+    "title": "欺騙",
+    "entries": [
+      {
+        "word": "belie",
+        "meaning": "",
+        "note": "辨義：表象掩蓋真實，或顯示某說法不實；不能只背成一般「欺騙」。",
+        "sourceId": "V001"
+      },
+      {
+        "word": "feign",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V027"
+      },
+      {
+        "word": "beguile",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V052"
+      },
+      {
+        "word": "chicane",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V077"
+      },
+      {
+        "word": "subterfuge",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V099"
+      },
+      {
+        "word": "spurious",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V119"
+      },
+      {
+        "word": "delude",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V137"
+      },
+      {
+        "word": "mendacious",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V151"
+      }
+    ]
+  },
+  {
+    "id": "seed-1",
+    "kind": "同義",
+    "major": "",
+    "title": "假冒的",
+    "entries": [
+      {
+        "word": "counterfeit",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V177"
+      },
+      {
+        "word": "fraudulent",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V201"
+      },
+      {
+        "word": "spurious",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V119"
+      },
+      {
+        "word": "bogus",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V244"
+      },
+      {
+        "word": "feigned",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V265"
+      },
+      {
+        "word": "forged",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V287"
+      },
+      {
+        "word": "ersatz",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V305"
+      },
+      {
+        "word": "simulated",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V320"
+      },
+      {
+        "word": "sham",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V334"
+      },
+      {
+        "word": "phony",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V348"
+      },
+      {
+        "word": "deceptive",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V359"
+      }
+    ]
+  },
+  {
+    "id": "seed-2",
+    "kind": "同義",
+    "major": "",
+    "title": "無所不在的",
+    "entries": [
+      {
+        "word": "pervasive",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V002"
+      },
+      {
+        "word": "ubiquitous",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V028"
+      },
+      {
+        "word": "omnipresent",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V053"
+      }
+    ]
+  },
+  {
+    "id": "seed-3",
+    "kind": "同義",
+    "major": "",
+    "title": "大量的",
+    "entries": [
+      {
+        "word": "profuse",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V202"
+      },
+      {
+        "word": "bountiful",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V223"
+      },
+      {
+        "word": "prolific",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V245"
+      },
+      {
+        "word": "copious",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V266"
+      },
+      {
+        "word": "cornucopia",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V288"
+      }
+    ]
+  },
+  {
+    "id": "seed-4",
+    "kind": "同義",
+    "major": "",
+    "title": "尊敬的",
+    "entries": [
+      {
+        "word": "formidable",
+        "meaning": "",
+        "note": "更正：強大難對付、令人生畏／令人欽佩；不是「表示尊敬的」。",
+        "sourceId": "V003"
+      }
+    ]
+  },
+  {
+    "id": "seed-5",
+    "kind": "同義",
+    "major": "",
+    "title": "減少",
+    "entries": [
+      {
+        "word": "curtail",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V178"
+      },
+      {
+        "word": "abridge",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V203"
+      },
+      {
+        "word": "abbreviate",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V224"
+      },
+      {
+        "word": "diminish",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V246"
+      },
+      {
+        "word": "truncate",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V267"
+      },
+      {
+        "word": "pare down",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V289"
+      },
+      {
+        "word": "deduct",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V306"
+      },
+      {
+        "word": "abate",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V321"
+      },
+      {
+        "word": "dwindle",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V335"
+      },
+      {
+        "word": "shrink",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V349"
+      },
+      {
+        "word": "wane",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V360"
+      },
+      {
+        "word": "ebb",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V366"
+      },
+      {
+        "word": "contract",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V372"
+      }
+    ]
+  },
+  {
+    "id": "seed-6",
+    "kind": "同義",
+    "major": "",
+    "title": "減弱",
+    "entries": [
+      {
+        "word": "dilute",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V442"
+      },
+      {
+        "word": "attenuate",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V445"
+      },
+      {
+        "word": "temper",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V448"
+      },
+      {
+        "word": "sap",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V451"
+      },
+      {
+        "word": "enfeeble",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V453"
+      }
+    ]
+  },
+  {
+    "id": "seed-7",
+    "kind": "同義",
+    "major": "",
+    "title": "阻礙",
+    "entries": [
+      {
+        "word": "obstruct",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V004"
+      },
+      {
+        "word": "hinder",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V029"
+      },
+      {
+        "word": "impede",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V054"
+      },
+      {
+        "word": "block",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V078"
+      }
+    ]
+  },
+  {
+    "id": "seed-8",
+    "kind": "同義",
+    "major": "",
+    "title": "威脅的 惡毒的",
+    "entries": [
+      {
+        "word": "baleful",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V179"
+      },
+      {
+        "word": "menacing",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V204"
+      },
+      {
+        "word": "intimidating",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V225"
+      },
+      {
+        "word": "malign",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V247"
+      },
+      {
+        "word": "injurious",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V268"
+      },
+      {
+        "word": "detrimental",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V290"
+      },
+      {
+        "word": "wicked",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V307"
+      },
+      {
+        "word": "noxious",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V322"
+      },
+      {
+        "word": "sinister",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V336"
+      },
+      {
+        "word": "baneful",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V350"
+      }
+    ]
+  },
+  {
+    "id": "seed-9",
+    "kind": "同義",
+    "major": "",
+    "title": "阻礙名詞",
+    "entries": [
+      {
+        "word": "obstruction",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V005"
+      },
+      {
+        "word": "hindrance",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V030"
+      },
+      {
+        "word": "impediment",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V055"
+      },
+      {
+        "word": "barrier",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V079"
+      },
+      {
+        "word": "deterrent",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V100"
+      },
+      {
+        "word": "encumbrance",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V120"
+      },
+      {
+        "word": "fetter",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V138"
+      },
+      {
+        "word": "manacle",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V152"
+      },
+      {
+        "word": "inhibition",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V162"
+      }
+    ]
+  },
+  {
+    "id": "seed-10",
+    "kind": "同義",
+    "major": "",
+    "title": "驅使",
+    "entries": [
+      {
+        "word": "impel",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V006"
+      },
+      {
+        "word": "propel",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V031"
+      },
+      {
+        "word": "drive",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V056"
+      },
+      {
+        "word": "incite",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V080"
+      },
+      {
+        "word": "instigate",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V101"
+      },
+      {
+        "word": "spur",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V121"
+      },
+      {
+        "word": "urge",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V139"
+      },
+      {
+        "word": "actuate",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V153"
+      },
+      {
+        "word": "prompt",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V163"
+      },
+      {
+        "word": "induce",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V169"
+      }
+    ]
+  },
+  {
+    "id": "seed-11",
+    "kind": "同義",
+    "major": "",
+    "title": "不滿的",
+    "entries": [
+      {
+        "word": "discontent",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V180"
+      },
+      {
+        "word": "disaffection",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V205"
+      },
+      {
+        "word": "estrange",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V226"
+      },
+      {
+        "word": "alienate",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V248"
+      },
+      {
+        "word": "resentment",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V269"
+      },
+      {
+        "word": "rebellion",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V291"
+      },
+      {
+        "word": "mutiny",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V308"
+      },
+      {
+        "word": "dissatisfaction",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V323"
+      }
+    ]
+  },
+  {
+    "id": "seed-12",
+    "kind": "同義",
+    "major": "",
+    "title": "不實際的 異想天開的",
+    "entries": [
+      {
+        "word": "whimsical",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V007"
+      },
+      {
+        "word": "fanciful",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V032"
+      },
+      {
+        "word": "caprice",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V057"
+      }
+    ]
+  },
+  {
+    "id": "seed-13",
+    "kind": "同義",
+    "major": "",
+    "title": "應受譴責的",
+    "entries": [
+      {
+        "word": "blameworthy",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V181"
+      },
+      {
+        "word": "culpable",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V206"
+      },
+      {
+        "word": "reprehensible",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V227"
+      },
+      {
+        "word": "accountable",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V249"
+      },
+      {
+        "word": "at fault",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V270"
+      }
+    ]
+  },
+  {
+    "id": "seed-14",
+    "kind": "同義",
+    "major": "",
+    "title": "糟糕的",
+    "entries": [
+      {
+        "word": "deplorable",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V373"
+      },
+      {
+        "word": "contemptible",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V241"
+      },
+      {
+        "word": "despicable",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V220"
+      },
+      {
+        "word": "pitiable",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V401"
+      },
+      {
+        "word": "reprehensible",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V227"
+      },
+      {
+        "word": "lamentable",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V419"
+      },
+      {
+        "word": "wretched",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V428"
+      },
+      {
+        "word": "disgraceful",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V431"
+      }
+    ]
+  },
+  {
+    "id": "seed-15",
+    "kind": "同義",
+    "major": "",
+    "title": "責罵",
+    "entries": [
+      {
+        "word": "vituperation",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V008"
+      },
+      {
+        "word": "abuse",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V033"
+      },
+      {
+        "word": "assail",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V058"
+      },
+      {
+        "word": "bash",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V081"
+      },
+      {
+        "word": "castigate",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V102"
+      },
+      {
+        "word": "excoriate",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V122"
+      },
+      {
+        "word": "lambaste",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V140"
+      },
+      {
+        "word": "rail",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V154"
+      },
+      {
+        "word": "revile",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V164"
+      },
+      {
+        "word": "reprimand",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V170"
+      },
+      {
+        "word": "rebuke",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V173"
+      },
+      {
+        "word": "censure",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V175"
+      },
+      {
+        "word": "convict",
+        "meaning": "",
+        "note": "辨義：定罪；不是一般責罵。",
+        "sourceId": "V182"
+      },
+      {
+        "word": "denounce",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V207"
+      },
+      {
+        "word": "berate",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V228"
+      },
+      {
+        "word": "decry",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V250"
+      },
+      {
+        "word": "reproach",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V271"
+      },
+      {
+        "word": "criticize",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V292"
+      },
+      {
+        "word": "anathematize",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V309"
+      },
+      {
+        "word": "diatribe",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V324"
+      },
+      {
+        "word": "tirade",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V337"
+      },
+      {
+        "word": "fulmination",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V351"
+      },
+      {
+        "word": "denunciation",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V361"
+      },
+      {
+        "word": "castigation",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V367"
+      },
+      {
+        "word": "invective",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V374"
+      },
+      {
+        "word": "rant",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V382"
+      },
+      {
+        "word": "jeremiad",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V391"
+      },
+      {
+        "word": "harangue",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V402"
+      },
+      {
+        "word": "philippic",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V410"
+      },
+      {
+        "word": "vilification",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V420"
+      }
+    ]
+  },
+  {
+    "id": "seed-16",
+    "kind": "同義",
+    "major": "",
+    "title": "使困惑",
+    "entries": [
+      {
+        "word": "confound",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V009"
+      },
+      {
+        "word": "confuse",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V034"
+      },
+      {
+        "word": "bewilder",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V059"
+      },
+      {
+        "word": "perplex",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V082"
+      },
+      {
+        "word": "fluster",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V103"
+      }
+    ]
+  },
+  {
+    "id": "seed-17",
+    "kind": "同義",
+    "major": "",
+    "title": "批判的",
+    "entries": [
+      {
+        "word": "critical",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V183"
+      },
+      {
+        "word": "censorious",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V208"
+      },
+      {
+        "word": "captious",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V229"
+      },
+      {
+        "word": "carping",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V251"
+      },
+      {
+        "word": "caviling",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V272"
+      },
+      {
+        "word": "belabor",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V310"
+      },
+      {
+        "word": "criticize",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V292"
+      }
+    ]
+  },
+  {
+    "id": "seed-18",
+    "kind": "同義",
+    "major": "",
+    "title": "細緻 詳盡",
+    "entries": [
+      {
+        "word": "conscientious",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V010"
+      },
+      {
+        "word": "meticulous",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V035"
+      },
+      {
+        "word": "painstaking",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V060"
+      },
+      {
+        "word": "thorough",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V083"
+      }
+    ]
+  },
+  {
+    "id": "seed-19",
+    "kind": "同義",
+    "major": "",
+    "title": "小心",
+    "entries": [
+      {
+        "word": "discreet",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V184"
+      },
+      {
+        "word": "circumspect",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V209"
+      },
+      {
+        "word": "diplomatic",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V230"
+      },
+      {
+        "word": "decorous",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V252"
+      },
+      {
+        "word": "tactful",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V273"
+      },
+      {
+        "word": "prudent",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V293"
+      },
+      {
+        "word": "judicious",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V311"
+      },
+      {
+        "word": "reserved",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V325"
+      },
+      {
+        "word": "guarded",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V338"
+      },
+      {
+        "word": "watchful",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V352"
+      },
+      {
+        "word": "sensible",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V362"
+      },
+      {
+        "word": "tact",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V375"
+      },
+      {
+        "word": "discretion",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V383"
+      },
+      {
+        "word": "judgment",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V392"
+      }
+    ]
+  },
+  {
+    "id": "seed-20",
+    "kind": "同義",
+    "major": "",
+    "title": "一致的",
+    "entries": [
+      {
+        "word": "consonant",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V011"
+      },
+      {
+        "word": "harmonious",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V036"
+      },
+      {
+        "word": "congruous",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V061"
+      },
+      {
+        "word": "accordant",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V084"
+      },
+      {
+        "word": "compatible",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V104"
+      },
+      {
+        "word": "coherent",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V123"
+      }
+    ]
+  },
+  {
+    "id": "seed-21",
+    "kind": "同義",
+    "major": "",
+    "title": "熟練 靈巧的",
+    "entries": [
+      {
+        "word": "deft",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V185"
+      },
+      {
+        "word": "adept",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V094"
+      },
+      {
+        "word": "adroit",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V231"
+      },
+      {
+        "word": "agile",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V253"
+      },
+      {
+        "word": "nimble",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V274"
+      },
+      {
+        "word": "dexterous",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V294"
+      },
+      {
+        "word": "ambidexterous",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V312"
+      },
+      {
+        "word": "expert",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V326"
+      },
+      {
+        "word": "artful",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V339"
+      },
+      {
+        "word": "proficient",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V071"
+      },
+      {
+        "word": "handy",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V363"
+      },
+      {
+        "word": "versatile",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V368"
+      }
+    ]
+  },
+  {
+    "id": "seed-22",
+    "kind": "同義",
+    "major": "",
+    "title": "密謀",
+    "entries": [
+      {
+        "word": "conspiracy",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V012"
+      },
+      {
+        "word": "plot",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V037"
+      },
+      {
+        "word": "intrigue",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V062"
+      },
+      {
+        "word": "machination",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V085"
+      },
+      {
+        "word": "collusion",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V105"
+      },
+      {
+        "word": "scheme",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V124"
+      },
+      {
+        "word": "deceit",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V141"
+      }
+    ]
+  },
+  {
+    "id": "seed-23",
+    "kind": "同義",
+    "major": "",
+    "title": "證實",
+    "entries": [
+      {
+        "word": "corroborate",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V186"
+      },
+      {
+        "word": "substantiate",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V210"
+      },
+      {
+        "word": "authenticate",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V232"
+      },
+      {
+        "word": "validate",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V254"
+      },
+      {
+        "word": "uphold",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V275"
+      }
+    ]
+  },
+  {
+    "id": "seed-24",
+    "kind": "同義",
+    "major": "",
+    "title": "理解成",
+    "entries": [
+      {
+        "word": "construe",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V013"
+      },
+      {
+        "word": "infer",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V038"
+      },
+      {
+        "word": "deduce",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V063"
+      },
+      {
+        "word": "elucidate",
+        "meaning": "",
+        "note": "辨義：闡明、解釋清楚；不是 infer／deduce 的推論。",
+        "sourceId": "V086"
+      },
+      {
+        "word": "surmise",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V106"
+      },
+      {
+        "word": "extrapolate",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V125"
+      }
+    ]
+  },
+  {
+    "id": "seed-25",
+    "kind": "同義",
+    "major": "",
+    "title": "聲稱",
+    "entries": [
+      {
+        "word": "declaim",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V187"
+      },
+      {
+        "word": "proclaim",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V211"
+      }
+    ]
+  },
+  {
+    "id": "seed-26",
+    "kind": "同義",
+    "major": "",
+    "title": "思考",
+    "entries": [
+      {
+        "word": "contemplate",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V014"
+      },
+      {
+        "word": "cogitate",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V039"
+      },
+      {
+        "word": "deliberate",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V064"
+      },
+      {
+        "word": "meditate",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V087"
+      },
+      {
+        "word": "weigh",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V107"
+      },
+      {
+        "word": "ruminate",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V126"
+      },
+      {
+        "word": "ponder",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V142"
+      },
+      {
+        "word": "muse",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V155"
+      }
+    ]
+  },
+  {
+    "id": "seed-27",
+    "kind": "同義",
+    "major": "",
+    "title": "誇大的",
+    "entries": [
+      {
+        "word": "bombastic",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V188"
+      },
+      {
+        "word": "pretentious",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V212"
+      },
+      {
+        "word": "grandiloquent",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V233"
+      },
+      {
+        "word": "turgid",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V255"
+      },
+      {
+        "word": "florid",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V276"
+      },
+      {
+        "word": "grandiose",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V295"
+      },
+      {
+        "word": "verbose",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V313"
+      },
+      {
+        "word": "ostentatious",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V327"
+      },
+      {
+        "word": "pompous",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V340"
+      },
+      {
+        "word": "overblown",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V353"
+      }
+    ]
+  },
+  {
+    "id": "seed-28",
+    "kind": "同義",
+    "major": "",
+    "title": "反駁 否定",
+    "entries": [
+      {
+        "word": "controvert",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V015"
+      },
+      {
+        "word": "refute",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V040"
+      },
+      {
+        "word": "rebut",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V065"
+      },
+      {
+        "word": "dispute",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V088"
+      },
+      {
+        "word": "gainsay",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V108"
+      },
+      {
+        "word": "resist",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V127"
+      },
+      {
+        "word": "contradict",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V143"
+      },
+      {
+        "word": "debunk (揭穿)",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V156"
+      },
+      {
+        "word": "demystify",
+        "meaning": "",
+        "note": "辨義：揭開神秘、使易懂；不一定反駁或證偽。",
+        "sourceId": "V165"
+      },
+      {
+        "word": "invalidate",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V171"
+      }
+    ]
+  },
+  {
+    "id": "seed-29",
+    "kind": "同義",
+    "major": "",
+    "title": "對抗反抗",
+    "entries": [
+      {
+        "word": "defy",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V189"
+      },
+      {
+        "word": "disobey",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V213"
+      },
+      {
+        "word": "rebel",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V234"
+      },
+      {
+        "word": "resist",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V127"
+      },
+      {
+        "word": "flout",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V277"
+      },
+      {
+        "word": "oppose",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V296"
+      }
+    ]
+  },
+  {
+    "id": "seed-30",
+    "kind": "同義",
+    "major": "",
+    "title": "拒絕",
+    "entries": [
+      {
+        "word": "demur",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V376"
+      },
+      {
+        "word": "object",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V384"
+      },
+      {
+        "word": "protest",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V393"
+      },
+      {
+        "word": "dissent",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V403"
+      },
+      {
+        "word": "balk",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V411"
+      },
+      {
+        "word": "oppose",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V296"
+      },
+      {
+        "word": "dispute",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V088"
+      }
+    ]
+  },
+  {
+    "id": "seed-31",
+    "kind": "同義",
+    "major": "",
+    "title": "傳達",
+    "entries": [
+      {
+        "word": "convey",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V016"
+      },
+      {
+        "word": "impart",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V041"
+      },
+      {
+        "word": "express",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V066"
+      },
+      {
+        "word": "relay",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V089"
+      },
+      {
+        "word": "articulate",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V109"
+      },
+      {
+        "word": "disclose",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V128"
+      }
+    ]
+  },
+  {
+    "id": "seed-32",
+    "kind": "同義",
+    "major": "",
+    "title": "仁慈的",
+    "entries": [
+      {
+        "word": "benign",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V190"
+      },
+      {
+        "word": "genial",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V214"
+      },
+      {
+        "word": "compassionate",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V235"
+      },
+      {
+        "word": "beneficent",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V256"
+      },
+      {
+        "word": "benevolent",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V278"
+      },
+      {
+        "word": "humane",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V297"
+      },
+      {
+        "word": "liberal",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V314"
+      },
+      {
+        "word": "altruistic",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V328"
+      },
+      {
+        "word": "magnanimous",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V341"
+      },
+      {
+        "word": "philanthropic",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V354"
+      }
+    ]
+  },
+  {
+    "id": "seed-33",
+    "kind": "同義",
+    "major": "",
+    "title": "有爭議的",
+    "entries": [
+      {
+        "word": "contentious",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V017"
+      },
+      {
+        "word": "confrontational",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V042"
+      },
+      {
+        "word": "aggressive",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V067"
+      },
+      {
+        "word": "discordant",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V090"
+      },
+      {
+        "word": "disputatious",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V110"
+      },
+      {
+        "word": "argumentative",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V129"
+      },
+      {
+        "word": "polemical",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V144"
+      },
+      {
+        "word": "controversial",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V157"
+      },
+      {
+        "word": "provocative",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V166"
+      }
+    ]
+  },
+  {
+    "id": "seed-34",
+    "kind": "同義",
+    "major": "",
+    "title": "好戰的",
+    "entries": [
+      {
+        "word": "belligerent",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V191"
+      },
+      {
+        "word": "bellicose",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V215"
+      },
+      {
+        "word": "pugnacious",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V236"
+      },
+      {
+        "word": "truculent",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V257"
+      },
+      {
+        "word": "combative",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V279"
+      },
+      {
+        "word": "quarrelsome",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V298"
+      },
+      {
+        "word": "contentious",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V017"
+      },
+      {
+        "word": "aggressive",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V067"
+      },
+      {
+        "word": "hostile",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V342"
+      },
+      {
+        "word": "militant",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V355"
+      },
+      {
+        "word": "disputatious",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V110"
+      },
+      {
+        "word": "agonistic",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V369"
+      },
+      {
+        "word": "confrontational",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V042"
+      }
+    ]
+  },
+  {
+    "id": "seed-35",
+    "kind": "同義",
+    "major": "",
+    "title": "扭曲",
+    "entries": [
+      {
+        "word": "contort",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V018"
+      },
+      {
+        "word": "distort",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V043"
+      },
+      {
+        "word": "warp",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V068"
+      },
+      {
+        "word": "writhe",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V091"
+      },
+      {
+        "word": "pervert",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V111"
+      },
+      {
+        "word": "skew",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V130"
+      },
+      {
+        "word": "falsify",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V145"
+      },
+      {
+        "word": "garble",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V158"
+      },
+      {
+        "word": "disfigure",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V167"
+      }
+    ]
+  },
+  {
+    "id": "seed-36",
+    "kind": "同義",
+    "major": "",
+    "title": "曲折艱難",
+    "entries": [
+      {
+        "word": "convoluted",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V192"
+      },
+      {
+        "word": "intricate",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V216"
+      },
+      {
+        "word": "tangled",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V237"
+      },
+      {
+        "word": "elaborate",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V258"
+      },
+      {
+        "word": "labyrinthine",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V280"
+      }
+    ]
+  },
+  {
+    "id": "seed-37",
+    "kind": "同義",
+    "major": "",
+    "title": "神秘艱澀的",
+    "entries": [
+      {
+        "word": "cryptic",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V377"
+      },
+      {
+        "word": "enigmatic",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V385"
+      },
+      {
+        "word": "perplexing",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V394"
+      },
+      {
+        "word": "obscure",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V404"
+      },
+      {
+        "word": "arcane",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V412"
+      },
+      {
+        "word": "ambiguous",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V421"
+      }
+    ]
+  },
+  {
+    "id": "seed-38",
+    "kind": "同義",
+    "major": "",
+    "title": "艱難的",
+    "entries": [
+      {
+        "word": "laborious",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V219"
+      },
+      {
+        "word": "demanding",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V446"
+      },
+      {
+        "word": "arduous",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V449"
+      },
+      {
+        "word": "burdensome",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V261"
+      },
+      {
+        "word": "exacting",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V454"
+      },
+      {
+        "word": "onerous",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V240"
+      },
+      {
+        "word": "taxing",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V457"
+      },
+      {
+        "word": "grueling",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V459"
+      },
+      {
+        "word": "strenuous",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V461"
+      }
+    ]
+  },
+  {
+    "id": "seed-39",
+    "kind": "同義",
+    "major": "",
+    "title": "傳統的 積習已久的",
+    "entries": [
+      {
+        "word": "conventional",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V019"
+      },
+      {
+        "word": "traditional",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V044"
+      },
+      {
+        "word": "orthodox",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V069"
+      },
+      {
+        "word": "commonplace",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V092"
+      },
+      {
+        "word": "customary",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V112"
+      },
+      {
+        "word": "habitual",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V131"
+      },
+      {
+        "word": "routine",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V146"
+      },
+      {
+        "word": "established",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V159"
+      }
+    ]
+  },
+  {
+    "id": "seed-40",
+    "kind": "同義",
+    "major": "",
+    "title": "平凡 陳腐的",
+    "entries": [
+      {
+        "word": "banal",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V193"
+      },
+      {
+        "word": "trite",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V217"
+      },
+      {
+        "word": "hackneyed",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V238"
+      },
+      {
+        "word": "cliched",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V259"
+      },
+      {
+        "word": "platitudinous",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V281"
+      },
+      {
+        "word": "vapid",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V299"
+      },
+      {
+        "word": "commonplace",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V092"
+      },
+      {
+        "word": "stale",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V329"
+      },
+      {
+        "word": "unimaginative",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V343"
+      },
+      {
+        "word": "prosaic",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V356"
+      }
+    ]
+  },
+  {
+    "id": "seed-41",
+    "kind": "同義",
+    "major": "",
+    "title": "冗長的",
+    "entries": [
+      {
+        "word": "diffuse",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V282"
+      },
+      {
+        "word": "verbose",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V313"
+      },
+      {
+        "word": "prolix",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V395"
+      },
+      {
+        "word": "rambling",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V405"
+      },
+      {
+        "word": "circumlocutory",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V413"
+      },
+      {
+        "word": "long-winded",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V422"
+      }
+    ]
+  },
+  {
+    "id": "seed-42",
+    "kind": "同義",
+    "major": "",
+    "title": "多餘的 可有可無",
+    "entries": [
+      {
+        "word": "dispensable",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V443"
+      },
+      {
+        "word": "gratuitous",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V447"
+      },
+      {
+        "word": "inessential",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V450"
+      },
+      {
+        "word": "unwarranted",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V452"
+      },
+      {
+        "word": "superfluous",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V455"
+      },
+      {
+        "word": "unnecessary",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V456"
+      },
+      {
+        "word": "redundant",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V458"
+      },
+      {
+        "word": "extraneous",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V460"
+      },
+      {
+        "word": "optional",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V462"
+      },
+      {
+        "word": "nonessential",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V463"
+      },
+      {
+        "word": "replaceable",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V464"
+      }
+    ]
+  },
+  {
+    "id": "seed-43",
+    "kind": "同義",
+    "major": "",
+    "title": "集中 集合",
+    "entries": [
+      {
+        "word": "converge",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V020"
+      },
+      {
+        "word": "intersect",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V045"
+      },
+      {
+        "word": "coincide",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V070"
+      },
+      {
+        "word": "assemble",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V093"
+      },
+      {
+        "word": "cluster",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V113"
+      }
+    ]
+  },
+  {
+    "id": "seed-44",
+    "kind": "同義",
+    "major": "",
+    "title": "分散",
+    "entries": [
+      {
+        "word": "disperse",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V194"
+      },
+      {
+        "word": "dissipate",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V218"
+      },
+      {
+        "word": "dispel",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V239"
+      },
+      {
+        "word": "disseminate",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V260"
+      },
+      {
+        "word": "diffuse",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V282"
+      },
+      {
+        "word": "distribute",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V300"
+      },
+      {
+        "word": "dissolve",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V315"
+      },
+      {
+        "word": "propagate",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V330"
+      },
+      {
+        "word": "promulgate",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V344"
+      },
+      {
+        "word": "circulate",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V357"
+      }
+    ]
+  },
+  {
+    "id": "seed-45",
+    "kind": "同義",
+    "major": "",
+    "title": "轉移 轉向",
+    "entries": [
+      {
+        "word": "deflect",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V378"
+      },
+      {
+        "word": "avert",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V386"
+      },
+      {
+        "word": "divert",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V396"
+      },
+      {
+        "word": "distract",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V406"
+      },
+      {
+        "word": "sidetrack",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V414"
+      },
+      {
+        "word": "reroute",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V423"
+      }
+    ]
+  },
+  {
+    "id": "seed-46",
+    "kind": "同義",
+    "major": "",
+    "title": "擅長的",
+    "entries": [
+      {
+        "word": "conversant",
+        "meaning": "",
+        "note": "補強：conversant with = 熟悉、有相關知識；不直接等同操作熟練。",
+        "sourceId": "V021"
+      },
+      {
+        "word": "competent",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V046"
+      },
+      {
+        "word": "proficient",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V071"
+      },
+      {
+        "word": "adept",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V094"
+      },
+      {
+        "word": "capable",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V114"
+      },
+      {
+        "word": "accomplished",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V132"
+      }
+    ]
+  },
+  {
+    "id": "seed-47",
+    "kind": "同義",
+    "major": "",
+    "title": "笨重的 累贅的",
+    "entries": [
+      {
+        "word": "cumbersome",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V195"
+      },
+      {
+        "word": "laborious",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V219"
+      },
+      {
+        "word": "onerous",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V240"
+      },
+      {
+        "word": "burdensome",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V261"
+      },
+      {
+        "word": "ponderous",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V283"
+      },
+      {
+        "word": "clumsy",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V301"
+      },
+      {
+        "word": "unwieldy",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V316"
+      }
+    ]
+  },
+  {
+    "id": "seed-48",
+    "kind": "同義",
+    "major": "",
+    "title": "暴政的",
+    "entries": [
+      {
+        "word": "despotic",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V379"
+      },
+      {
+        "word": "absolute",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V387"
+      },
+      {
+        "word": "autocratic",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V397"
+      },
+      {
+        "word": "tyrannical",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V407"
+      },
+      {
+        "word": "dictatorial",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V415"
+      },
+      {
+        "word": "oppressive",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V424"
+      },
+      {
+        "word": "authoritarian",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V429"
+      },
+      {
+        "word": "totalitarian",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V432"
+      },
+      {
+        "word": "draconian",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V435"
+      }
+    ]
+  },
+  {
+    "id": "seed-49",
+    "kind": "同義",
+    "major": "",
+    "title": "沮喪的",
+    "entries": [
+      {
+        "word": "crestfallen",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V022"
+      },
+      {
+        "word": "dejected",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V047"
+      },
+      {
+        "word": "despondent",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V072"
+      },
+      {
+        "word": "disheartened",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V095"
+      },
+      {
+        "word": "discouraged",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V115"
+      },
+      {
+        "word": "downcast",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V133"
+      },
+      {
+        "word": "forlorn",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V147"
+      },
+      {
+        "word": "dispirited",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V160"
+      },
+      {
+        "word": "dismay",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V168"
+      },
+      {
+        "word": "demoralize",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V172"
+      },
+      {
+        "word": "dampen",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V174"
+      },
+      {
+        "word": "unnerve",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V176"
+      },
+      {
+        "word": "depress",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V196"
+      }
+    ]
+  },
+  {
+    "id": "seed-50",
+    "kind": "同義",
+    "major": "",
+    "title": "憤世嫉俗的 懷疑的",
+    "entries": [
+      {
+        "word": "cynic",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V380"
+      },
+      {
+        "word": "skeptic",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V388"
+      },
+      {
+        "word": "pessimist",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V398"
+      },
+      {
+        "word": "misanthrope",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V408"
+      },
+      {
+        "word": "doubter",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V416"
+      },
+      {
+        "word": "nihilist",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V425"
+      },
+      {
+        "word": "cynical",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V433"
+      },
+      {
+        "word": "sardonic",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V436"
+      },
+      {
+        "word": "pessimistic",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V438"
+      },
+      {
+        "word": "jaded",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V440"
+      }
+    ]
+  },
+  {
+    "id": "seed-51",
+    "kind": "同義",
+    "major": "",
+    "title": "驅逐",
+    "entries": [
+      {
+        "word": "banish",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V023"
+      },
+      {
+        "word": "exile",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V048"
+      },
+      {
+        "word": "expel",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V073"
+      },
+      {
+        "word": "relegate",
+        "meaning": "",
+        "note": "辨義：降級／交由處理，須看搭配；不直接等同驅逐。",
+        "sourceId": "V096"
+      },
+      {
+        "word": "expatriate",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V116"
+      },
+      {
+        "word": "ostracize",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V134"
+      },
+      {
+        "word": "deport",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V148"
+      },
+      {
+        "word": "oust",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V161"
+      }
+    ]
+  },
+  {
+    "id": "seed-52",
+    "kind": "同義",
+    "major": "",
+    "title": "卑鄙的 卑下的",
+    "entries": [
+      {
+        "word": "base",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V197"
+      },
+      {
+        "word": "despicable",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V220"
+      },
+      {
+        "word": "contemptible",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V241"
+      },
+      {
+        "word": "ignoble",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V262"
+      },
+      {
+        "word": "sordid",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V284"
+      },
+      {
+        "word": "vile",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V302"
+      },
+      {
+        "word": "mean",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V317"
+      },
+      {
+        "word": "low",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V331"
+      },
+      {
+        "word": "degraded",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V345"
+      }
+    ]
+  },
+  {
+    "id": "seed-53",
+    "kind": "同義",
+    "major": "",
+    "title": "罵人的 貶低的",
+    "entries": [
+      {
+        "word": "derogatory",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V381"
+      },
+      {
+        "word": "belittling",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V389"
+      },
+      {
+        "word": "disparaging",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V399"
+      },
+      {
+        "word": "degrading",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V409"
+      },
+      {
+        "word": "demeaning",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V417"
+      },
+      {
+        "word": "pejorative",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V426"
+      },
+      {
+        "word": "deprecatory",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V430"
+      },
+      {
+        "word": "disdainful",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V434"
+      },
+      {
+        "word": "slighting",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V437"
+      },
+      {
+        "word": "insulting",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V439"
+      },
+      {
+        "word": "scornful",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V441"
+      },
+      {
+        "word": "contemptuous",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V444"
+      }
+    ]
+  },
+  {
+    "id": "seed-54",
+    "kind": "同義",
+    "major": "",
+    "title": "有說服力的",
+    "entries": [
+      {
+        "word": "cogent",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V024"
+      },
+      {
+        "word": "compelling",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V049"
+      },
+      {
+        "word": "convincing",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V074"
+      }
+    ]
+  },
+  {
+    "id": "seed-55",
+    "kind": "同義",
+    "major": "",
+    "title": "紆尊降貴 貶低",
+    "entries": [
+      {
+        "word": "abase",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V198"
+      },
+      {
+        "word": "debase",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V221"
+      },
+      {
+        "word": "demean",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V242"
+      },
+      {
+        "word": "belittle",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V263"
+      },
+      {
+        "word": "humiliate",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V285"
+      },
+      {
+        "word": "degrade",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V303"
+      },
+      {
+        "word": "disgrace",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V318"
+      },
+      {
+        "word": "disparage",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V332"
+      },
+      {
+        "word": "denigrate",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V346"
+      },
+      {
+        "word": "decry",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V250"
+      },
+      {
+        "word": "vilify",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V364"
+      },
+      {
+        "word": "slander",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V370"
+      },
+      {
+        "word": "malign",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V247"
+      },
+      {
+        "word": "defame",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V390"
+      },
+      {
+        "word": "deride",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V400"
+      },
+      {
+        "word": "revile",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V164"
+      },
+      {
+        "word": "scorn",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V418"
+      },
+      {
+        "word": "ridicule",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V427"
+      }
+    ]
+  },
+  {
+    "id": "seed-56",
+    "kind": "同義",
+    "major": "",
+    "title": "限制",
+    "entries": [
+      {
+        "word": "constrict",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V025"
+      },
+      {
+        "word": "constrain",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V050"
+      },
+      {
+        "word": "restrain",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V075"
+      },
+      {
+        "word": "circumscribe",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V097"
+      },
+      {
+        "word": "delimit",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V117"
+      },
+      {
+        "word": "demarcate",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V135"
+      },
+      {
+        "word": "delineate",
+        "meaning": "",
+        "note": "辨義：描繪、勾勒／界定輪廓；不直接等同限制。",
+        "sourceId": "V149"
+      }
+    ]
+  },
+  {
+    "id": "seed-57",
+    "kind": "同義",
+    "major": "",
+    "title": "冷靜明理 公平",
+    "entries": [
+      {
+        "word": "dispassionate",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V199"
+      },
+      {
+        "word": "just",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V222"
+      },
+      {
+        "word": "equitable",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V243"
+      },
+      {
+        "word": "impartial",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V264"
+      },
+      {
+        "word": "unbiased",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V286"
+      },
+      {
+        "word": "objective",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V304"
+      },
+      {
+        "word": "detached",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V319"
+      },
+      {
+        "word": "neutral",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V333"
+      },
+      {
+        "word": "unemotional",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V347"
+      },
+      {
+        "word": "unprejudiced",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V358"
+      },
+      {
+        "word": "composed",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V365"
+      },
+      {
+        "word": "serene",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V371"
+      }
+    ]
+  },
+  {
+    "id": "seed-58",
+    "kind": "同義",
+    "major": "",
+    "title": "禁止",
+    "entries": [
+      {
+        "word": "debar",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V026"
+      },
+      {
+        "word": "bar",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V051"
+      },
+      {
+        "word": "ban",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V076"
+      },
+      {
+        "word": "exclude",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V098"
+      },
+      {
+        "word": "prohibit",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V118"
+      },
+      {
+        "word": "preclude",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V136"
+      },
+      {
+        "word": "interdict",
+        "meaning": "",
+        "note": "",
+        "sourceId": "V150"
+      }
+    ]
+  },
+  {
+    "id": "seed-59",
+    "kind": "同義",
+    "major": "",
+    "title": "不公平的",
+    "entries": [
+      {
+        "word": "tendentious",
+        "meaning": "",
+        "note": "辨義：帶有偏見、宣揚某立場；不宜只背成不公平。",
+        "sourceId": "V200"
+      }
+    ]
+  },
+  {
+    "id": "seed-60-0",
+    "kind": "易混淆",
+    "major": "",
+    "title": "omnipotent / omnipresent / omniscient",
+    "entries": [
+      {
+        "word": "omnipotent",
+        "meaning": "全能的；potential",
+        "note": "",
+        "sourceId": "V465"
+      },
+      {
+        "word": "omnipresent",
+        "meaning": "無所不在的",
+        "note": "",
+        "sourceId": "V053"
+      },
+      {
+        "word": "omniscient",
+        "meaning": "無所不知的",
+        "note": "",
+        "sourceId": "V466"
+      }
+    ]
+  },
+  {
+    "id": "seed-60-1",
+    "kind": "易混淆",
+    "major": "",
+    "title": "contend / content",
+    "entries": [
+      {
+        "word": "contend",
+        "meaning": "競爭；主張",
+        "note": "",
+        "sourceId": "V467"
+      },
+      {
+        "word": "content",
+        "meaning": "滿足",
+        "note": "",
+        "sourceId": "V468"
+      }
+    ]
+  },
+  {
+    "id": "seed-60-2",
+    "kind": "易混淆",
+    "major": "",
+    "title": "comprehensive / comprehensible",
+    "entries": [
+      {
+        "word": "comprehensive",
+        "meaning": "全面性",
+        "note": "",
+        "sourceId": "V469"
+      },
+      {
+        "word": "comprehensible",
+        "meaning": "可理解的",
+        "note": "",
+        "sourceId": "V470"
+      }
+    ]
+  },
+  {
+    "id": "seed-60-3",
+    "kind": "易混淆",
+    "major": "",
+    "title": "cordial / discord / concord",
+    "entries": [
+      {
+        "word": "cordial",
+        "meaning": "友好的；強烈的",
+        "note": "",
+        "sourceId": "V471"
+      },
+      {
+        "word": "discord",
+        "meaning": "看法不一致；不和諧；discordant / dissonant",
+        "note": "",
+        "sourceId": "V472"
+      },
+      {
+        "word": "concord",
+        "meaning": "一致；和諧；consonant",
+        "note": "",
+        "sourceId": "V473"
+      }
+    ]
+  },
+  {
+    "id": "seed-60-4",
+    "kind": "易混淆",
+    "major": "",
+    "title": "conflate / deflate",
+    "entries": [
+      {
+        "word": "conflate",
+        "meaning": "結合 把...混為一談",
+        "note": "",
+        "sourceId": "V474"
+      },
+      {
+        "word": "deflate",
+        "meaning": "使洩氣；削弱",
+        "note": "",
+        "sourceId": "V475"
+      }
+    ]
+  },
+  {
+    "id": "seed-60-5",
+    "kind": "易混淆",
+    "major": "",
+    "title": "connote / denote",
+    "entries": [
+      {
+        "word": "connote",
+        "meaning": "暗示 象徵",
+        "note": "",
+        "sourceId": "V476"
+      },
+      {
+        "word": "denote",
+        "meaning": "表示 代表",
+        "note": "",
+        "sourceId": "V477"
+      }
+    ]
+  },
+  {
+    "id": "seed-60-6",
+    "kind": "易混淆",
+    "major": "",
+    "title": "disassemble / dissemble",
+    "entries": [
+      {
+        "word": "disassemble",
+        "meaning": "拆開 ",
+        "note": "",
+        "sourceId": "V478"
+      },
+      {
+        "word": "dissemble",
+        "meaning": "佯裝",
+        "note": "",
+        "sourceId": "V479"
+      }
+    ]
+  },
+  {
+    "id": "seed-61",
+    "kind": "片語",
+    "major": "",
+    "title": "片語",
+    "entries": [
+      {
+        "word": "dwell on",
+        "meaning": "專注於...",
+        "note": "",
+        "sourceId": "V480"
+      }
+    ]
+  },
+  {
+    "id": "seed-62",
+    "kind": "其他",
+    "major": "字彙填空本單字",
+    "title": "字彙填空 - 平凡無聊篇",
+    "entries": [
+      {
+        "word": "unworldly",
+        "meaning": "超脫世俗的",
+        "note": "",
+        "sourceId": "V481"
+      },
+      {
+        "word": "commonplace",
+        "meaning": "陳腔濫調",
+        "note": "",
+        "sourceId": "V092"
+      },
+      {
+        "word": "ethos",
+        "meaning": "民族精神 社會風氣",
+        "note": "",
+        "sourceId": "V485"
+      },
+      {
+        "word": "paradox",
+        "meaning": "看似矛盾卻成立；specious 看似合理 其實是錯的",
+        "note": "",
+        "sourceId": "V487"
+      },
+      {
+        "word": "sinister",
+        "meaning": "邪惡的 不詳的",
+        "note": "",
+        "sourceId": "V336"
+      },
+      {
+        "word": "mundane",
+        "meaning": "無聊的",
+        "note": "",
+        "sourceId": "V493"
+      },
+      {
+        "word": "sentiment",
+        "meaning": "看法 情感",
+        "note": "",
+        "sourceId": "V496"
+      },
+      {
+        "word": "vapid",
+        "meaning": "空洞的",
+        "note": "",
+        "sourceId": "V299"
+      },
+      {
+        "word": "jejune",
+        "meaning": "幼稚乏味的",
+        "note": "",
+        "sourceId": "V501"
+      },
+      {
+        "word": "dogmatic",
+        "meaning": "固執的；武斷的",
+        "note": "",
+        "sourceId": "V505"
+      },
+      {
+        "word": "esoteric",
+        "meaning": "深奧難懂；arcane",
+        "note": "",
+        "sourceId": "V509"
+      },
+      {
+        "word": "corrosive",
+        "meaning": "腐蝕性的；尖酸刻薄的",
+        "note": "",
+        "sourceId": "V512"
+      },
+      {
+        "word": "finicky",
+        "meaning": "過度挑剔",
+        "note": "",
+        "sourceId": "V515"
+      },
+      {
+        "word": "microscopic",
+        "meaning": "巨大 肉眼可見的",
+        "note": "更正：微小的、需顯微鏡才能看清的；不是巨大或肉眼可見。",
+        "sourceId": "V518"
+      },
+      {
+        "word": "minute",
+        "meaning": "極小的；分鐘",
+        "note": "",
+        "sourceId": "V522"
+      },
+      {
+        "word": "banal",
+        "meaning": "老套的",
+        "note": "",
+        "sourceId": "V193"
+      },
+      {
+        "word": "provocative",
+        "meaning": "發人深省的；挑釁的",
+        "note": "",
+        "sourceId": "V166"
+      },
+      {
+        "word": "witty",
+        "meaning": "聰明的",
+        "note": "補強：機智幽默，不只是聰明。",
+        "sourceId": "V529"
+      },
+      {
+        "word": "insipid",
+        "meaning": "乏味的",
+        "note": "",
+        "sourceId": "V531"
+      },
+      {
+        "word": "crackle with (energy)",
+        "meaning": "充滿活力",
+        "note": "",
+        "sourceId": "V535"
+      },
+      {
+        "word": "spell out",
+        "meaning": "清楚說明；拚出來",
+        "note": "",
+        "sourceId": "V539"
+      },
+      {
+        "word": "shrewd",
+        "meaning": "精明的；敏銳的",
+        "note": "",
+        "sourceId": "V542"
+      },
+      {
+        "word": "riotous",
+        "meaning": "喧鬧的",
+        "note": "",
+        "sourceId": "V546"
+      },
+      {
+        "word": "canned",
+        "meaning": "千篇一律的 套公式的",
+        "note": "",
+        "sourceId": "V550"
+      },
+      {
+        "word": "tedious",
+        "meaning": "乏味的",
+        "note": "",
+        "sourceId": "V554"
+      },
+      {
+        "word": "convoluted",
+        "meaning": "錯綜複雜的",
+        "note": "",
+        "sourceId": "V192"
+      },
+      {
+        "word": "tortuous",
+        "meaning": "彎彎曲曲的",
+        "note": "",
+        "sourceId": "V561"
+      },
+      {
+        "word": "dormant",
+        "meaning": "休眠的；dormant volcano",
+        "note": "",
+        "sourceId": "V563"
+      },
+      {
+        "word": "nugatory",
+        "meaning": "無效的；nugatory effort",
+        "note": "",
+        "sourceId": "V567"
+      },
+      {
+        "word": "far from routine",
+        "meaning": "不是簡單的例行工作",
+        "note": "",
+        "sourceId": "V571"
+      },
+      {
+        "word": "engaging",
+        "meaning": "引人入勝",
+        "note": "",
+        "sourceId": "V575"
+      },
+      {
+        "word": "inconceivable",
+        "meaning": "難以想像的",
+        "note": "",
+        "sourceId": "V578"
+      },
+      {
+        "word": "advent",
+        "meaning": "出現",
+        "note": "",
+        "sourceId": "V581"
+      },
+      {
+        "word": "concentrated",
+        "meaning": "密集的",
+        "note": "",
+        "sourceId": "V584"
+      },
+      {
+        "word": "remunerative",
+        "meaning": "有獲利的",
+        "note": "",
+        "sourceId": "V588"
+      },
+      {
+        "word": "ramshackle",
+        "meaning": "破舊的",
+        "note": "",
+        "sourceId": "V592"
+      },
+      {
+        "word": "picture palace",
+        "meaning": "豪華電影院",
+        "note": "",
+        "sourceId": "V596"
+      },
+      {
+        "word": "spartan",
+        "meaning": "簡樸的",
+        "note": "",
+        "sourceId": "V600"
+      },
+      {
+        "word": "sophisticated",
+        "meaning": "精緻的 先進的；老練的",
+        "note": "",
+        "sourceId": "V604"
+      },
+      {
+        "word": "pedestrian",
+        "meaning": "平凡的；行人",
+        "note": "",
+        "sourceId": "V608"
+      },
+      {
+        "word": "sporadic",
+        "meaning": "偶爾 零星的",
+        "note": "",
+        "sourceId": "V612"
+      },
+      {
+        "word": "assorted",
+        "meaning": "各式各樣的 混合的",
+        "note": "",
+        "sourceId": "V616"
+      },
+      {
+        "word": "pointless",
+        "meaning": "毫無意義的",
+        "note": "",
+        "sourceId": "V620"
+      },
+      {
+        "word": "atypically",
+        "meaning": "不尋常的",
+        "note": "",
+        "sourceId": "V624"
+      },
+      {
+        "word": "render",
+        "meaning": "使...",
+        "note": "",
+        "sourceId": "V627"
+      },
+      {
+        "word": "put forward",
+        "meaning": "提出某個想法",
+        "note": "",
+        "sourceId": "V631"
+      },
+      {
+        "word": "be enamored of",
+        "meaning": "非常喜愛...",
+        "note": "",
+        "sourceId": "V634"
+      },
+      {
+        "word": "prying eyes",
+        "meaning": "窺探的目光",
+        "note": "",
+        "sourceId": "V637"
+      },
+      {
+        "word": "exotic",
+        "meaning": "新奇的",
+        "note": "",
+        "sourceId": "V640"
+      },
+      {
+        "word": "intercept",
+        "meaning": "攔截；截距",
+        "note": "",
+        "sourceId": "V643"
+      },
+      {
+        "word": "budding",
+        "meaning": "正在發展 初露頭角的",
+        "note": "",
+        "sourceId": "V646"
+      },
+      {
+        "word": "cryptography",
+        "meaning": "密碼學",
+        "note": "",
+        "sourceId": "V648"
+      },
+      {
+        "word": "recollection",
+        "meaning": "回憶 記憶",
+        "note": "",
+        "sourceId": "V650"
+      },
+      {
+        "word": "colorful",
+        "meaning": "生動鮮明的 細節豐富的",
+        "note": "",
+        "sourceId": "V652"
+      },
+      {
+        "word": "coax",
+        "meaning": "慢慢引導出來",
+        "note": "",
+        "sourceId": "V654"
+      },
+      {
+        "word": "spotty",
+        "meaning": "零碎的 不完整的",
+        "note": "",
+        "sourceId": "V656"
+      },
+      {
+        "word": "elusive",
+        "meaning": "難以掌握的",
+        "note": "",
+        "sourceId": "V657"
+      },
+      {
+        "word": "riveting",
+        "meaning": "極吸引人",
+        "note": "",
+        "sourceId": "V659"
+      },
+      {
+        "word": "sycophantic",
+        "meaning": "阿諛奉承的",
+        "note": "",
+        "sourceId": "V661"
+      },
+      {
+        "word": "sycophant",
+        "meaning": "馬屁精",
+        "note": "",
+        "sourceId": "V663"
+      },
+      {
+        "word": "flabbergasted",
+        "meaning": "大吃一驚",
+        "note": "",
+        "sourceId": "V665"
+      },
+      {
+        "word": "introduce changes",
+        "meaning": "引入改變",
+        "note": "",
+        "sourceId": "V667"
+      },
+      {
+        "word": "prosaic",
+        "meaning": "平凡的",
+        "note": "",
+        "sourceId": "V356"
+      },
+      {
+        "word": "dissident",
+        "meaning": "持異議的",
+        "note": "",
+        "sourceId": "V670"
+      },
+      {
+        "word": "collegial",
+        "meaning": "同事般友善的合作的",
+        "note": "",
+        "sourceId": "V671"
+      },
+      {
+        "word": "unequivocal",
+        "meaning": "明確無疑的",
+        "note": "",
+        "sourceId": "V673"
+      },
+      {
+        "word": "nature",
+        "meaning": "特性；本性",
+        "note": "",
+        "sourceId": "V675"
+      },
+      {
+        "word": "vehement",
+        "meaning": "激烈強硬",
+        "note": "",
+        "sourceId": "V677"
+      },
+      {
+        "word": "genteel",
+        "meaning": "文雅有禮的",
+        "note": "",
+        "sourceId": "V679"
+      },
+      {
+        "word": "affable",
+        "meaning": "親切和善的",
+        "note": "",
+        "sourceId": "V680"
+      },
+      {
+        "word": "captivating",
+        "meaning": "迷人的 引人入勝的",
+        "note": "",
+        "sourceId": "V682"
+      },
+      {
+        "word": "predominant",
+        "meaning": "占主導地位",
+        "note": "",
+        "sourceId": "V684"
+      },
+      {
+        "word": "pompous",
+        "meaning": "自大浮誇的",
+        "note": "",
+        "sourceId": "V340"
+      },
+      {
+        "word": "precarious",
+        "meaning": "不穩定的 危險的",
+        "note": "",
+        "sourceId": "V687"
+      },
+      {
+        "word": "conjectural",
+        "meaning": "推測性的 未證實的",
+        "note": "",
+        "sourceId": "V689"
+      },
+      {
+        "word": "dispersal",
+        "meaning": "遷徙",
+        "note": "補強：散布／分散；生物語境可指擴散，不一概等同遷徙。",
+        "sourceId": "V691"
+      },
+      {
+        "word": "inveterate",
+        "meaning": "根深蒂固的 積習已久的",
+        "note": "",
+        "sourceId": "V555"
+      },
+      {
+        "word": "illustrious",
+        "meaning": "著名而傑出的",
+        "note": "",
+        "sourceId": "V537"
+      },
+      {
+        "word": "protean",
+        "meaning": "多才多藝的",
+        "note": "補強：多變、變化多端；不總是多才多藝。",
+        "sourceId": "V692"
+      },
+      {
+        "word": "versatile",
+        "meaning": "多才多藝的",
+        "note": "",
+        "sourceId": "V368"
+      },
+      {
+        "word": "laconic",
+        "meaning": "言簡意賅的 話少的",
+        "note": "",
+        "sourceId": "V693"
+      },
+      {
+        "word": "enigmatic",
+        "meaning": "神秘的；蒙娜麗莎的微笑",
+        "note": "",
+        "sourceId": "V385"
+      },
+      {
+        "word": "bucolic",
+        "meaning": "田園的",
+        "note": "",
+        "sourceId": "V694"
+      },
+      {
+        "word": "eclectic",
+        "meaning": "多元的；ex lec",
+        "note": "",
+        "sourceId": "V695"
+      },
+      {
+        "word": "pacific",
+        "meaning": "太平洋；和平的",
+        "note": "",
+        "sourceId": "V696"
+      },
+      {
+        "word": "indolent",
+        "meaning": "懶惰的",
+        "note": "",
+        "sourceId": "V697"
+      },
+      {
+        "word": "innocuous",
+        "meaning": "無害的",
+        "note": "",
+        "sourceId": "V683"
+      }
+    ]
+  },
+  {
+    "id": "seed-63",
+    "kind": "其他",
+    "major": "字彙填空本單字",
+    "title": "字彙填空 - 仔細謹慎篇",
+    "entries": [
+      {
+        "word": "disinterested",
+        "meaning": "",
+        "note": "補充：公正、不受私利影響；也有不感興趣義，須按語境辨認。",
+        "sourceId": "V482"
+      },
+      {
+        "word": "ad hoc",
+        "meaning": "臨時組成的",
+        "note": "",
+        "sourceId": "V484"
+      },
+      {
+        "word": "gainsay",
+        "meaning": "否認",
+        "note": "",
+        "sourceId": "V108"
+      },
+      {
+        "word": "be attuned to",
+        "meaning": "對...特別敏感",
+        "note": "",
+        "sourceId": "V488"
+      },
+      {
+        "word": "divulge",
+        "meaning": "洩漏",
+        "note": "",
+        "sourceId": "V491"
+      },
+      {
+        "word": "gloat",
+        "meaning": "幸災樂禍 洋洋得意",
+        "note": "",
+        "sourceId": "V494"
+      },
+      {
+        "word": "economical in",
+        "meaning": "在...方面很極簡",
+        "note": "",
+        "sourceId": "V497"
+      },
+      {
+        "word": "flustered about",
+        "meaning": "因...而慌亂",
+        "note": "",
+        "sourceId": "V499"
+      },
+      {
+        "word": "blind alley",
+        "meaning": "死路；沒有成果的研究方向",
+        "note": "",
+        "sourceId": "V502"
+      },
+      {
+        "word": "fail to appear",
+        "meaning": "未出現；沒有被記載",
+        "note": "",
+        "sourceId": "V506"
+      },
+      {
+        "word": "written account",
+        "meaning": "書面紀錄",
+        "note": "",
+        "sourceId": "V510"
+      },
+      {
+        "word": "exhaustive",
+        "meaning": "全面的；comprehensive",
+        "note": "",
+        "sourceId": "V513"
+      },
+      {
+        "word": "pertinent",
+        "meaning": "相關的",
+        "note": "",
+        "sourceId": "V516"
+      },
+      {
+        "word": "magisterial",
+        "meaning": "威嚴的 大師級的",
+        "note": "",
+        "sourceId": "V519"
+      },
+      {
+        "word": "sanguine",
+        "meaning": "樂觀的",
+        "note": "",
+        "sourceId": "V523"
+      },
+      {
+        "word": "obtrusive",
+        "meaning": "過分顯眼的",
+        "note": "",
+        "sourceId": "V525"
+      },
+      {
+        "word": "scrupulous",
+        "meaning": "嚴謹細心的",
+        "note": "",
+        "sourceId": "V527"
+      },
+      {
+        "word": "fanciful",
+        "meaning": "幻想的",
+        "note": "",
+        "sourceId": "V032"
+      },
+      {
+        "word": "be charged with",
+        "meaning": "被賦予...職責",
+        "note": "",
+        "sourceId": "V532"
+      },
+      {
+        "word": "misfeasance",
+        "meaning": "不當行為",
+        "note": "",
+        "sourceId": "V536"
+      },
+      {
+        "word": "tenacious",
+        "meaning": "堅持不懈的",
+        "note": "",
+        "sourceId": "V540"
+      },
+      {
+        "word": "implacable",
+        "meaning": "難以安撫的；不肯妥協的；不可阻擋的",
+        "note": "",
+        "sourceId": "V543"
+      },
+      {
+        "word": "advocate",
+        "meaning": "提昌者 辯護者",
+        "note": "",
+        "sourceId": "V547"
+      },
+      {
+        "word": "succinct",
+        "meaning": "簡潔的；concise",
+        "note": "",
+        "sourceId": "V551"
+      },
+      {
+        "word": "inveterate",
+        "meaning": "積習已久的；inveterate prolixity 習慣性的囉唆",
+        "note": "",
+        "sourceId": "V555"
+      },
+      {
+        "word": "prolixity",
+        "meaning": "冗長",
+        "note": "",
+        "sourceId": "V558"
+      },
+      {
+        "word": "preclude",
+        "meaning": "阻止",
+        "note": "",
+        "sourceId": "V136"
+      },
+      {
+        "word": "imperturbability",
+        "meaning": "沉著冷靜的",
+        "note": "詞性更正：名詞，沉著；形容詞為 imperturbable。",
+        "sourceId": "V564"
+      },
+      {
+        "word": "epitome",
+        "meaning": "典型；...的化身",
+        "note": "",
+        "sourceId": "V568"
+      },
+      {
+        "word": "dynamism",
+        "meaning": "活力 幹勁",
+        "note": "",
+        "sourceId": "V572"
+      },
+      {
+        "word": "corrosive",
+        "meaning": "腐蝕性的 有害的",
+        "note": "",
+        "sourceId": "V512"
+      },
+      {
+        "word": "esoteric",
+        "meaning": "艱深的",
+        "note": "",
+        "sourceId": "V509"
+      },
+      {
+        "word": "enigmatic",
+        "meaning": "艱深的",
+        "note": "",
+        "sourceId": "V385"
+      },
+      {
+        "word": "much-ballyhooed",
+        "meaning": "大肆宣傳吹捧的",
+        "note": "",
+        "sourceId": "V585"
+      },
+      {
+        "word": "drollness",
+        "meaning": "詼諧",
+        "note": "",
+        "sourceId": "V589"
+      },
+      {
+        "word": "quip",
+        "meaning": "俏皮話",
+        "note": "",
+        "sourceId": "V593"
+      },
+      {
+        "word": "pensiveness",
+        "meaning": "沉思 若有所思",
+        "note": "",
+        "sourceId": "V597"
+      },
+      {
+        "word": "stoicism",
+        "meaning": "堅忍克制 泰然忍受痛苦",
+        "note": "",
+        "sourceId": "V601"
+      },
+      {
+        "word": "congeniality",
+        "meaning": "意氣相投",
+        "note": "",
+        "sourceId": "V605"
+      },
+      {
+        "word": "rationalize",
+        "meaning": "合理化；精簡重整",
+        "note": "",
+        "sourceId": "V609"
+      },
+      {
+        "word": "granted",
+        "meaning": "批准；承認；給予",
+        "note": "",
+        "sourceId": "V613"
+      },
+      {
+        "word": "peripatetic",
+        "meaning": "四處遊走的",
+        "note": "",
+        "sourceId": "V617"
+      },
+      {
+        "word": "itinerant",
+        "meaning": "常常旅遊的",
+        "note": "",
+        "sourceId": "V621"
+      },
+      {
+        "word": "opaque",
+        "meaning": "艱澀的；不透明的",
+        "note": "",
+        "sourceId": "V625"
+      },
+      {
+        "word": "mendacity",
+        "meaning": "不誠實的",
+        "note": "詞性更正：名詞，不誠實／說謊；形容詞為 mendacious。",
+        "sourceId": "V628"
+      },
+      {
+        "word": "pugnacious",
+        "meaning": "好鬥的",
+        "note": "",
+        "sourceId": "V236"
+      },
+      {
+        "word": "truculent",
+        "meaning": "好鬥的；挑釁的",
+        "note": "",
+        "sourceId": "V257"
+      },
+      {
+        "word": "detracting",
+        "meaning": "貶抑的",
+        "note": "",
+        "sourceId": "V638"
+      },
+      {
+        "word": "deprecatory",
+        "meaning": "貶抑的",
+        "note": "",
+        "sourceId": "V430"
+      }
+    ]
+  },
+  {
+    "id": "seed-64",
+    "kind": "其他",
+    "major": "字彙填空本單字",
+    "title": "字彙填空 - 好戰篇",
+    "entries": [
+      {
+        "word": "concur",
+        "meaning": "同意；與...同時發生；Several factors concurred to cause the accident.",
+        "note": "",
+        "sourceId": "V483"
+      },
+      {
+        "word": "contentious",
+        "meaning": "愛爭論的",
+        "note": "",
+        "sourceId": "V017"
+      },
+      {
+        "word": "loquacious",
+        "meaning": "健談的",
+        "note": "",
+        "sourceId": "V486"
+      },
+      {
+        "word": "irascible",
+        "meaning": "易怒的",
+        "note": "",
+        "sourceId": "V489"
+      },
+      {
+        "word": "perfidious",
+        "meaning": "背信棄義的 不忠誠的",
+        "note": "",
+        "sourceId": "V492"
+      },
+      {
+        "word": "voracious",
+        "meaning": "貪吃的；求知慾旺盛",
+        "note": "",
+        "sourceId": "V495"
+      },
+      {
+        "word": "polemical",
+        "meaning": "好辯的",
+        "note": "",
+        "sourceId": "V144"
+      },
+      {
+        "word": "edifying",
+        "meaning": "具啟發性的",
+        "note": "",
+        "sourceId": "V500"
+      },
+      {
+        "word": "inherently",
+        "meaning": "本質上的；內在地",
+        "note": "",
+        "sourceId": "V503"
+      },
+      {
+        "word": "diametrical",
+        "meaning": "直徑兩端 完全相反的",
+        "note": "",
+        "sourceId": "V507"
+      },
+      {
+        "word": "mercenary",
+        "meaning": "受金錢驅使的",
+        "note": "",
+        "sourceId": "V511"
+      },
+      {
+        "word": "cutting-edge",
+        "meaning": "最先進的；尖端的",
+        "note": "",
+        "sourceId": "V514"
+      },
+      {
+        "word": "hostility",
+        "meaning": "敵意",
+        "note": "",
+        "sourceId": "V517"
+      },
+      {
+        "word": "inimical",
+        "meaning": "敵對的 有害的",
+        "note": "",
+        "sourceId": "V520"
+      },
+      {
+        "word": "autocratic",
+        "meaning": "獨裁的",
+        "note": "",
+        "sourceId": "V397"
+      },
+      {
+        "word": "bearing",
+        "meaning": "舉止 風度",
+        "note": "",
+        "sourceId": "V526"
+      },
+      {
+        "word": "engage an issue",
+        "meaning": "處理某項議題",
+        "note": "",
+        "sourceId": "V528"
+      },
+      {
+        "word": "perplexing",
+        "meaning": "難懂的 令人困惑的",
+        "note": "",
+        "sourceId": "V394"
+      },
+      {
+        "word": "laypeople",
+        "meaning": "非專業人士",
+        "note": "",
+        "sourceId": "V533"
+      },
+      {
+        "word": "illustrious",
+        "meaning": "輝煌的；傑出的；有聖名的",
+        "note": "",
+        "sourceId": "V537"
+      },
+      {
+        "word": "sordid",
+        "meaning": "卑劣可恥的",
+        "note": "",
+        "sourceId": "V284"
+      },
+      {
+        "word": "fraught",
+        "meaning": "充滿問題衝突壓力",
+        "note": "",
+        "sourceId": "V544"
+      },
+      {
+        "word": "frown",
+        "meaning": ":(",
+        "note": "",
+        "sourceId": "V548"
+      },
+      {
+        "word": "sullen",
+        "meaning": "悶悶不樂的；生氣但沉默的",
+        "note": "",
+        "sourceId": "V552"
+      },
+      {
+        "word": "surly",
+        "meaning": "脾氣差；粗魯的",
+        "note": "",
+        "sourceId": "V556"
+      },
+      {
+        "word": "founder on...",
+        "meaning": "因...而失敗 受阻",
+        "note": "",
+        "sourceId": "V559"
+      },
+      {
+        "word": "articulate",
+        "meaning": "清楚表達",
+        "note": "",
+        "sourceId": "V109"
+      },
+      {
+        "word": "unflappability",
+        "meaning": "沉著冷靜 不慌不亂",
+        "note": "",
+        "sourceId": "V565"
+      },
+      {
+        "word": "board meeting",
+        "meaning": "董事會會議",
+        "note": "",
+        "sourceId": "V569"
+      },
+      {
+        "word": "supercilious",
+        "meaning": "自大的",
+        "note": "",
+        "sourceId": "V573"
+      },
+      {
+        "word": "histrionic",
+        "meaning": "戲劇化的",
+        "note": "",
+        "sourceId": "V576"
+      },
+      {
+        "word": "populist",
+        "meaning": "平民主義 大眾主義",
+        "note": "",
+        "sourceId": "V579"
+      },
+      {
+        "word": "snappish",
+        "meaning": "易怒的 說話不耐煩的",
+        "note": "",
+        "sourceId": "V582"
+      },
+      {
+        "word": "subordinate",
+        "meaning": "下屬",
+        "note": "",
+        "sourceId": "V586"
+      },
+      {
+        "word": "umbrage",
+        "meaning": "受到冒犯；take umbrage at 因...感到不悅",
+        "note": "",
+        "sourceId": "V590"
+      },
+      {
+        "word": "expiation",
+        "meaning": "贖罪",
+        "note": "",
+        "sourceId": "V594"
+      },
+      {
+        "word": "torpor",
+        "meaning": "遲鈍",
+        "note": "",
+        "sourceId": "V598"
+      },
+      {
+        "word": "collectively",
+        "meaning": "集體地 共同地",
+        "note": "",
+        "sourceId": "V602"
+      },
+      {
+        "word": "placate",
+        "meaning": "安撫",
+        "note": "",
+        "sourceId": "V606"
+      },
+      {
+        "word": "appraise",
+        "meaning": "評估；估價",
+        "note": "",
+        "sourceId": "V610"
+      },
+      {
+        "word": "insouciance",
+        "meaning": "無憂無慮；漫不經心",
+        "note": "",
+        "sourceId": "V614"
+      },
+      {
+        "word": "conciliatory",
+        "meaning": "安撫性的",
+        "note": "",
+        "sourceId": "V618"
+      },
+      {
+        "word": "paradigmatic",
+        "meaning": "典範性的",
+        "note": "",
+        "sourceId": "V622"
+      },
+      {
+        "word": "choleric",
+        "meaning": "易怒的",
+        "note": "",
+        "sourceId": "V626"
+      },
+      {
+        "word": "intransigent",
+        "meaning": "固執強硬 不妥協的",
+        "note": "",
+        "sourceId": "V629"
+      },
+      {
+        "word": "officious",
+        "meaning": "愛管閒事的",
+        "note": "",
+        "sourceId": "V632"
+      },
+      {
+        "word": "irenic",
+        "meaning": "和平主義的",
+        "note": "",
+        "sourceId": "V635"
+      },
+      {
+        "word": "prudent",
+        "meaning": "審慎明智的",
+        "note": "",
+        "sourceId": "V293"
+      },
+      {
+        "word": "occasional",
+        "meaning": "偶爾的",
+        "note": "",
+        "sourceId": "V641"
+      },
+      {
+        "word": "defining",
+        "meaning": "最具代表性的",
+        "note": "",
+        "sourceId": "V644"
+      }
+    ]
+  },
+  {
+    "id": "seed-65",
+    "kind": "其他",
+    "major": "字彙填空本單字",
+    "title": "字彙填空 - 欺騙篇 ",
+    "entries": [
+      {
+        "word": "belie",
+        "meaning": "掩飾真相；證明...是假的；藏在甚麼東西下面的感覺",
+        "note": "辨義：表象掩蓋真實，或顯示某說法不實；不能只背成一般「欺騙」。",
+        "sourceId": "V001"
+      },
+      {
+        "word": "feign",
+        "meaning": "假裝；feign illness 裝病",
+        "note": "",
+        "sourceId": "V027"
+      },
+      {
+        "word": "beguile",
+        "meaning": "用魅力迷惑 欺騙",
+        "note": "",
+        "sourceId": "V052"
+      },
+      {
+        "word": "wile",
+        "meaning": "詭計",
+        "note": "",
+        "sourceId": "V490"
+      },
+      {
+        "word": "chicane",
+        "meaning": "欺詐 詭辯",
+        "note": "",
+        "sourceId": "V077"
+      },
+      {
+        "word": "subterfuge",
+        "meaning": "欺騙手段；託辭",
+        "note": "",
+        "sourceId": "V099"
+      },
+      {
+        "word": "skulduggery",
+        "meaning": "欺詐手段",
+        "note": "",
+        "sourceId": "V498"
+      },
+      {
+        "word": "malign",
+        "meaning": "誹謗 有害的",
+        "note": "",
+        "sourceId": "V247"
+      },
+      {
+        "word": "disingenuous",
+        "meaning": "不真誠坦率的",
+        "note": "",
+        "sourceId": "V504"
+      },
+      {
+        "word": "conspire",
+        "meaning": "密謀",
+        "note": "",
+        "sourceId": "V508"
+      },
+      {
+        "word": "dissemble",
+        "meaning": "假裝；掩飾意圖",
+        "note": "",
+        "sourceId": "V479"
+      },
+      {
+        "word": "formidable",
+        "meaning": "強大 難對付的；敬畏的",
+        "note": "更正：強大難對付、令人生畏／令人欽佩；不是「表示尊敬的」。",
+        "sourceId": "V003"
+      },
+      {
+        "word": "pervasive",
+        "meaning": "無所不在的；invasive",
+        "note": "",
+        "sourceId": "V002"
+      },
+      {
+        "word": "afresh",
+        "meaning": "重新地",
+        "note": "",
+        "sourceId": "V521"
+      },
+      {
+        "word": "specimen",
+        "meaning": "樣本；標本",
+        "note": "",
+        "sourceId": "V524"
+      },
+      {
+        "word": "conflate",
+        "meaning": "把不同事物混為一談",
+        "note": "",
+        "sourceId": "V474"
+      },
+      {
+        "word": "divulge",
+        "meaning": "洩漏",
+        "note": "",
+        "sourceId": "V491"
+      },
+      {
+        "word": "rigorous",
+        "meaning": "嚴格的",
+        "note": "",
+        "sourceId": "V530"
+      },
+      {
+        "word": "fiscal",
+        "meaning": "財政的",
+        "note": "",
+        "sourceId": "V534"
+      },
+      {
+        "word": "blatant",
+        "meaning": "明目張膽的",
+        "note": "",
+        "sourceId": "V538"
+      },
+      {
+        "word": "sophist",
+        "meaning": "詭辯家",
+        "note": "",
+        "sourceId": "V541"
+      },
+      {
+        "word": "quibbler",
+        "meaning": "愛糾結小細節的人",
+        "note": "",
+        "sourceId": "V545"
+      },
+      {
+        "word": "pedant",
+        "meaning": "愛賣弄學問的人",
+        "note": "",
+        "sourceId": "V549"
+      },
+      {
+        "word": "doctrinaire",
+        "meaning": "死守某套理論的人",
+        "note": "",
+        "sourceId": "V553"
+      },
+      {
+        "word": "self-serving",
+        "meaning": "為自己利益著想的",
+        "note": "",
+        "sourceId": "V557"
+      },
+      {
+        "word": "perennial",
+        "meaning": "長期存在的；反覆發生的",
+        "note": "",
+        "sourceId": "V560"
+      },
+      {
+        "word": "lament",
+        "meaning": "抱怨",
+        "note": "",
+        "sourceId": "V562"
+      },
+      {
+        "word": "poignant",
+        "meaning": "令人心酸 感傷的",
+        "note": "",
+        "sourceId": "V566"
+      },
+      {
+        "word": "proximity",
+        "meaning": "接近 鄰近",
+        "note": "",
+        "sourceId": "V570"
+      },
+      {
+        "word": "furtive",
+        "meaning": "偷偷摸摸的",
+        "note": "",
+        "sourceId": "V574"
+      },
+      {
+        "word": "prudence",
+        "meaning": "謹慎",
+        "note": "",
+        "sourceId": "V577"
+      },
+      {
+        "word": "conceivably",
+        "meaning": "理論上可以",
+        "note": "",
+        "sourceId": "V580"
+      },
+      {
+        "word": "secretive",
+        "meaning": "祕密的",
+        "note": "",
+        "sourceId": "V583"
+      },
+      {
+        "word": "False",
+        "meaning": "錯的；虛假的",
+        "note": "",
+        "sourceId": "V587"
+      },
+      {
+        "word": "correspondence",
+        "meaning": "書信",
+        "note": "",
+        "sourceId": "V591"
+      },
+      {
+        "word": "distinction",
+        "meaning": "差異；區分的動作；卓越",
+        "note": "",
+        "sourceId": "V595"
+      },
+      {
+        "word": "prominence",
+        "meaning": "顯眼；突出；重要性",
+        "note": "",
+        "sourceId": "V599"
+      },
+      {
+        "word": "nullify",
+        "meaning": "使無效；抵銷",
+        "note": "",
+        "sourceId": "V603"
+      },
+      {
+        "word": "halcyon",
+        "meaning": "平靜太平的",
+        "note": "",
+        "sourceId": "V607"
+      },
+      {
+        "word": "charlatan",
+        "meaning": "騙子；冒充內行的人",
+        "note": "",
+        "sourceId": "V611"
+      },
+      {
+        "word": "malingering",
+        "meaning": "裝病逃避責任",
+        "note": "",
+        "sourceId": "V615"
+      },
+      {
+        "word": "retribution",
+        "meaning": "報應 懲罰",
+        "note": "",
+        "sourceId": "V619"
+      },
+      {
+        "word": "earnestness",
+        "meaning": "認真 誠摯",
+        "note": "",
+        "sourceId": "V623"
+      },
+      {
+        "word": "tenacious",
+        "meaning": "堅持不懈的；頑強的",
+        "note": "",
+        "sourceId": "V540"
+      },
+      {
+        "word": "cause",
+        "meaning": "事業 理念 目標",
+        "note": "",
+        "sourceId": "V630"
+      },
+      {
+        "word": "allure",
+        "meaning": "魅力",
+        "note": "",
+        "sourceId": "V633"
+      },
+      {
+        "word": "refractory",
+        "meaning": "難以控制的；倔強的；難以治療的",
+        "note": "",
+        "sourceId": "V636"
+      },
+      {
+        "word": "willfulness",
+        "meaning": "固執任性",
+        "note": "",
+        "sourceId": "V639"
+      },
+      {
+        "word": "obstinate",
+        "meaning": "固執的",
+        "note": "",
+        "sourceId": "V642"
+      },
+      {
+        "word": "brazen",
+        "meaning": "厚顏無恥的",
+        "note": "",
+        "sourceId": "V645"
+      },
+      {
+        "word": "hubris",
+        "meaning": "傲慢自大",
+        "note": "",
+        "sourceId": "V647"
+      },
+      {
+        "word": "staunch",
+        "meaning": "堅定的；忠實的",
+        "note": "",
+        "sourceId": "V649"
+      },
+      {
+        "word": "fealty",
+        "meaning": "忠誠",
+        "note": "",
+        "sourceId": "V651"
+      },
+      {
+        "word": "moviegoer",
+        "meaning": "電影觀眾",
+        "note": "",
+        "sourceId": "V653"
+      },
+      {
+        "word": "trickery",
+        "meaning": "花招；欺騙手法",
+        "note": "",
+        "sourceId": "V655"
+      },
+      {
+        "word": "sinister",
+        "meaning": "邪惡的；不祥的",
+        "note": "",
+        "sourceId": "V336"
+      },
+      {
+        "word": "exalt",
+        "meaning": "高度讚揚；提升地位",
+        "note": "",
+        "sourceId": "V658"
+      },
+      {
+        "word": "transcendent",
+        "meaning": "崇高的；超過一般經驗的",
+        "note": "",
+        "sourceId": "V660"
+      },
+      {
+        "word": "aver",
+        "meaning": "斷言",
+        "note": "",
+        "sourceId": "V662"
+      },
+      {
+        "word": "avow",
+        "meaning": "公開承認",
+        "note": "",
+        "sourceId": "V664"
+      },
+      {
+        "word": "on the verge of",
+        "meaning": "即將",
+        "note": "",
+        "sourceId": "V666"
+      },
+      {
+        "word": "bankruptcy",
+        "meaning": "破產",
+        "note": "",
+        "sourceId": "V668"
+      },
+      {
+        "word": "abject",
+        "meaning": "悲慘的；卑微的；極端的",
+        "note": "",
+        "sourceId": "V669"
+      },
+      {
+        "word": "pervasive",
+        "meaning": "無處不在的",
+        "note": "",
+        "sourceId": "V002"
+      },
+      {
+        "word": "troubling",
+        "meaning": "令人擔憂的",
+        "note": "",
+        "sourceId": "V672"
+      },
+      {
+        "word": "withdrawal",
+        "meaning": "撤離 退出",
+        "note": "",
+        "sourceId": "V674"
+      },
+      {
+        "word": "vengeful",
+        "meaning": "復仇心重的",
+        "note": "",
+        "sourceId": "V676"
+      },
+      {
+        "word": "coddle",
+        "meaning": "溺愛；嬌養",
+        "note": "",
+        "sourceId": "V678"
+      },
+      {
+        "word": "excoriate",
+        "meaning": "痛斥 嚴厲批評",
+        "note": "",
+        "sourceId": "V122"
+      },
+      {
+        "word": "mollify",
+        "meaning": "安撫 使平息",
+        "note": "",
+        "sourceId": "V681"
+      },
+      {
+        "word": "innocuous",
+        "meaning": "無害的；不反感的",
+        "note": "",
+        "sourceId": "V683"
+      },
+      {
+        "word": "overture",
+        "meaning": "序曲 開端 前奏",
+        "note": "",
+        "sourceId": "V685"
+      },
+      {
+        "word": "bleak",
+        "meaning": "悲觀的；荒涼的",
+        "note": "",
+        "sourceId": "V686"
+      },
+      {
+        "word": "undercut",
+        "meaning": "削弱；損害",
+        "note": "",
+        "sourceId": "V688"
+      },
+      {
+        "word": "prefigure",
+        "meaning": "預示 成為...的先兆",
+        "note": "",
+        "sourceId": "V690"
+      }
+    ]
+  },
+  {
+    "id": "seed-67",
+    "kind": "其他",
+    "major": "閱讀420",
+    "title": "Passage 10",
+    "entries": [
+      {
+        "word": "substantial",
+        "meaning": "大量的；堅固的；實質的；重大顯著的",
+        "note": "",
+        "sourceId": "V698"
+      },
+      {
+        "word": "wedge",
+        "meaning": "卡住；被夾在中間",
+        "note": "",
+        "sourceId": "V699"
+      }
+    ]
+  },
+  {
+    "id": "seed-68",
+    "kind": "其他",
+    "major": "閱讀420",
+    "title": "Passage 11",
+    "entries": [
+      {
+        "word": "prototype",
+        "meaning": "原型；典型範例",
+        "note": "",
+        "sourceId": "V700"
+      },
+      {
+        "word": "weepy",
+        "meaning": "過度感傷的；愛哭的",
+        "note": "",
+        "sourceId": "V701"
+      },
+      {
+        "word": "pious",
+        "meaning": "虔誠的；自以為道德高尚的",
+        "note": "",
+        "sourceId": "V702"
+      },
+      {
+        "word": "insipid",
+        "meaning": "平淡無聊的",
+        "note": "",
+        "sourceId": "V531"
+      },
+      {
+        "word": "reclamation",
+        "meaning": "重新發掘 恢復名譽",
+        "note": "",
+        "sourceId": "V703"
+      },
+      {
+        "word": "reconcile A with B",
+        "meaning": "調和AB 讓他們一致 不矛盾",
+        "note": "",
+        "sourceId": "V704"
+      },
+      {
+        "word": "sardonic",
+        "meaning": "尖酸諷刺的",
+        "note": "",
+        "sourceId": "V436"
+      },
+      {
+        "word": "critique",
+        "meaning": "批判性評論",
+        "note": "",
+        "sourceId": "V705"
+      },
+      {
+        "word": "effusive",
+        "meaning": "熱情洋溢的",
+        "note": "",
+        "sourceId": "V706"
+      },
+      {
+        "word": "flowery",
+        "meaning": "詞藻華麗的 ( 過度修飾的負面意思 )",
+        "note": "",
+        "sourceId": "V707"
+      },
+      {
+        "word": "rhetoric",
+        "meaning": "空泛的 ( 言論 )",
+        "note": "詞性補強：名詞，修辭／言辭；某些語境指空泛言辭，不一概負面。",
+        "sourceId": "V708"
+      },
+      {
+        "word": "subversive",
+        "meaning": "打破常規 有顛覆性的",
+        "note": "",
+        "sourceId": "V709"
+      },
+      {
+        "word": "serve an end",
+        "meaning": "達成某種目的",
+        "note": "",
+        "sourceId": "V710"
+      },
+      {
+        "word": "sway",
+        "meaning": "說服 影響 改變某人看法；sway readers emotionally",
+        "note": "",
+        "sourceId": "V711"
+      },
+      {
+        "word": "account for",
+        "meaning": "說明了...",
+        "note": "",
+        "sourceId": "V712"
+      },
+      {
+        "word": "dismissive",
+        "meaning": "不懈一顧的",
+        "note": "",
+        "sourceId": "V713"
+      },
+      {
+        "word": "pejorative",
+        "meaning": "帶有負面評價的",
+        "note": "",
+        "sourceId": "V426"
+      },
+      {
+        "word": "reformation",
+        "meaning": "改革 改造",
+        "note": "",
+        "sourceId": "V714"
+      },
+      {
+        "word": "rehabilitation",
+        "meaning": "復健 ；恢復名譽 平反",
+        "note": "",
+        "sourceId": "V715"
+      },
+      {
+        "word": "recapitulation",
+        "meaning": "摘要",
+        "note": "",
+        "sourceId": "V716"
+      },
+      {
+        "word": "retraction",
+        "meaning": "撤回；issue a retraction 發表撤回聲明",
+        "note": "",
+        "sourceId": "V717"
+      },
+      {
+        "word": "reiteration",
+        "meaning": "",
+        "note": "補充：重申、反覆說明。",
+        "sourceId": "V718"
+      }
+    ]
+  },
+  {
+    "id": "seed-remaining",
+    "kind": "其他",
+    "major": "原有補充單字",
+    "title": "未列入原分組的單字",
+    "entries": [
+      {
+        "word": "disregard",
+        "meaning": "忽視 = ignore",
+        "note": "",
+        "sourceId": "V719"
+      },
+      {
+        "word": "bemoan",
+        "meaning": "哀嘆 = lament",
+        "note": "",
+        "sourceId": "V720"
+      },
+      {
+        "word": "downplay",
+        "meaning": "淡化 = minimize",
+        "note": "",
+        "sourceId": "V721"
+      },
+      {
+        "word": "ardor",
+        "meaning": "熱情 = passion",
+        "note": "",
+        "sourceId": "V722"
+      },
+      {
+        "word": "cordiality",
+        "meaning": "親切、友善 = friendliness",
+        "note": "",
+        "sourceId": "V723"
+      },
+      {
+        "word": "restraint",
+        "meaning": "克制、自制",
+        "note": "",
+        "sourceId": "V724"
+      },
+      {
+        "word": "douse",
+        "meaning": "澆熄、壓制",
+        "note": "",
+        "sourceId": "V725"
+      },
+      {
+        "word": "expedite",
+        "meaning": "加速",
+        "note": "",
+        "sourceId": "V726"
+      },
+      {
+        "word": "publicize",
+        "meaning": "宣傳、公開",
+        "note": "",
+        "sourceId": "V727"
+      },
+      {
+        "word": "disparate",
+        "meaning": "截然不同的",
+        "note": "",
+        "sourceId": "V728"
+      },
+      {
+        "word": "entity",
+        "meaning": "事物、實體",
+        "note": "",
+        "sourceId": "V729"
+      },
+      {
+        "word": "weave",
+        "meaning": "編織、串連",
+        "note": "",
+        "sourceId": "V730"
+      },
+      {
+        "word": "shun",
+        "meaning": "避開",
+        "note": "",
+        "sourceId": "V731"
+      },
+      {
+        "word": "untangle",
+        "meaning": "解開、理清",
+        "note": "",
+        "sourceId": "V732"
+      },
+      {
+        "word": "imperiousness",
+        "meaning": "專橫、盛氣凌人",
+        "note": "",
+        "sourceId": "V733"
+      },
+      {
+        "word": "inexorableness",
+        "meaning": "無法阻止、不可避免",
+        "note": "",
+        "sourceId": "V734"
+      },
+      {
+        "word": "strangeness",
+        "meaning": "陌生、奇異",
+        "note": "",
+        "sourceId": "V735"
+      },
+      {
+        "word": "lucidity",
+        "meaning": "清晰、明瞭",
+        "note": "",
+        "sourceId": "V736"
+      },
+      {
+        "word": "preference",
+        "meaning": "偏好",
+        "note": "",
+        "sourceId": "V737"
+      },
+      {
+        "word": "adulterated",
+        "meaning": "摻雜 被汙染的",
+        "note": "",
+        "sourceId": "V738"
+      },
+      {
+        "word": "shroud A in B",
+        "meaning": "用 B 掩飾 A",
+        "note": "",
+        "sourceId": "V739"
+      },
+      {
+        "word": "cutthroat",
+        "meaning": "激烈競爭的、不擇手段的",
+        "note": "",
+        "sourceId": "V740"
+      },
+      {
+        "word": "elude",
+        "meaning": "使人做不到／避開、逃脫",
+        "note": "",
+        "sourceId": "V741"
+      },
+      {
+        "word": "tenacity",
+        "meaning": "堅持、韌性",
+        "note": "",
+        "sourceId": "V742"
+      },
+      {
+        "word": "humility",
+        "meaning": "謙遜",
+        "note": "",
+        "sourceId": "V743"
+      },
+      {
+        "word": "nonchalance",
+        "meaning": "若無其事、漫不經心",
+        "note": "",
+        "sourceId": "V744"
+      },
+      {
+        "word": "doggedness",
+        "meaning": "頑強、堅持",
+        "note": "",
+        "sourceId": "V745"
+      },
+      {
+        "word": "be marred by + 負面事物",
+        "meaning": "因...而受損",
+        "note": "",
+        "sourceId": "V746"
+      },
+      {
+        "word": "vacillation",
+        "meaning": "搖擺不定、猶豫",
+        "note": "",
+        "sourceId": "V747"
+      },
+      {
+        "word": "belligerence",
+        "meaning": "好鬥、敵意",
+        "note": "",
+        "sourceId": "V748"
+      },
+      {
+        "word": "pugnacity",
+        "meaning": "好鬥、愛爭鬥",
+        "note": "",
+        "sourceId": "V749"
+      },
+      {
+        "word": "animated",
+        "meaning": "生動的、活潑的",
+        "note": "",
+        "sourceId": "V750"
+      },
+      {
+        "word": "risible",
+        "meaning": "可笑的、引人發笑",
+        "note": "",
+        "sourceId": "V751"
+      },
+      {
+        "word": "comely",
+        "meaning": "好看的、秀麗的",
+        "note": "",
+        "sourceId": "V752"
+      },
+      {
+        "word": "ludicrous",
+        "meaning": "荒謬可笑的、滑稽的",
+        "note": "",
+        "sourceId": "V753"
+      },
+      {
+        "word": "anomalous",
+        "meaning": "異常的、不尋常的",
+        "note": "",
+        "sourceId": "V754"
+      },
+      {
+        "word": "vanguard research",
+        "meaning": "前沿研究",
+        "note": "",
+        "sourceId": "V755"
+      },
+      {
+        "word": "contradicted by",
+        "meaning": "被……反駁",
+        "note": "",
+        "sourceId": "V756"
+      },
+      {
+        "word": "undergirded by",
+        "meaning": "被……支撐、以……為基礎",
+        "note": "",
+        "sourceId": "V757"
+      },
+      {
+        "word": "dependent on",
+        "meaning": "依賴……",
+        "note": "",
+        "sourceId": "V758"
+      },
+      {
+        "word": "elucidated by",
+        "meaning": "被……闡明、解釋",
+        "note": "",
+        "sourceId": "V759"
+      },
+      {
+        "word": "impact",
+        "meaning": "撞擊",
+        "note": "",
+        "sourceId": "V760"
+      },
+      {
+        "word": "postulate",
+        "meaning": "假設、提出",
+        "note": "",
+        "sourceId": "V761"
+      },
+      {
+        "word": "predisposition",
+        "meaning": "先天傾向／特性",
+        "note": "",
+        "sourceId": "V762"
+      },
+      {
+        "word": "appreciable yield",
+        "meaning": "相當可觀的產量",
+        "note": "",
+        "sourceId": "V763"
+      },
+      {
+        "word": "marginal soil",
+        "meaning": "貧瘠／品質較差、不適合耕作的土壤",
+        "note": "",
+        "sourceId": "V764"
+      },
+      {
+        "word": "arable",
+        "meaning": "適合耕作的",
+        "note": "",
+        "sourceId": "V765"
+      },
+      {
+        "word": "marginal",
+        "meaning": "貧瘠的、條件差的",
+        "note": "",
+        "sourceId": "V766"
+      },
+      {
+        "word": "choice",
+        "meaning": "優質的、精選的",
+        "note": "",
+        "sourceId": "V767"
+      },
+      {
+        "word": "swell",
+        "meaning": "膨脹、變大",
+        "note": "",
+        "sourceId": "V768"
+      },
+      {
+        "word": "coalesce",
+        "meaning": "合併、融合",
+        "note": "",
+        "sourceId": "V769"
+      },
+      {
+        "word": "implode",
+        "meaning": "向內爆裂／坍縮",
+        "note": "",
+        "sourceId": "V770"
+      },
+      {
+        "word": "amid",
+        "meaning": "在……之中；在……期間",
+        "note": "",
+        "sourceId": "V771"
+      },
+      {
+        "word": "intellectual foundation",
+        "meaning": "思想基礎、觀念基礎",
+        "note": "",
+        "sourceId": "V772"
+      },
+      {
+        "word": "fixity",
+        "meaning": "固定、不變",
+        "note": "",
+        "sourceId": "V773"
+      },
+      {
+        "word": "worldview",
+        "meaning": "世界觀、看事情的整體觀念 (是名詞不是形容詞！！)",
+        "note": "",
+        "sourceId": "V774"
+      },
+      {
+        "word": "ecological",
+        "meaning": "生態的、生態學的",
+        "note": "",
+        "sourceId": "V775"
+      },
+      {
+        "word": "elsewhere",
+        "meaning": "其他地方、別處",
+        "note": "",
+        "sourceId": "V776"
+      },
+      {
+        "word": "ethnographic",
+        "meaning": "民族誌的",
+        "note": "",
+        "sourceId": "V777"
+      },
+      {
+        "word": "robustly",
+        "meaning": "強有力地、有力地、強烈地",
+        "note": "",
+        "sourceId": "V778"
+      },
+      {
+        "word": "account",
+        "meaning": "(1) 記述、報導、描述 (2) 帳戶",
+        "note": "",
+        "sourceId": "V779"
+      },
+      {
+        "word": "timeless",
+        "meaning": "unchanged through time = 永恆的、不隨時間改變的",
+        "note": "",
+        "sourceId": "V780"
+      },
+      {
+        "word": "traditionalism",
+        "meaning": "傳統主義",
+        "note": "",
+        "sourceId": "V781"
+      },
+      {
+        "word": "evolving",
+        "meaning": "不斷演變的",
+        "note": "",
+        "sourceId": "V782"
+      },
+      {
+        "word": "modern",
+        "meaning": "現代的、近代的",
+        "note": "",
+        "sourceId": "V783"
+      },
+      {
+        "word": "sumptuary laws",
+        "meaning": "限制服飾與消費的法律",
+        "note": "",
+        "sourceId": "V784"
+      },
+      {
+        "word": "incorporate / incorporating",
+        "meaning": "納入、加入、融入",
+        "note": "",
+        "sourceId": "V785"
+      },
+      {
+        "word": "uniform",
+        "meaning": "一致的、統一的；制服",
+        "note": "",
+        "sourceId": "V786"
+      },
+      {
+        "word": "purportedly",
+        "meaning": "據稱、號稱、表面上所謂的",
+        "note": "",
+        "sourceId": "V787"
+      },
+      {
+        "word": "vary by locality / varied by locality",
+        "meaning": "因地區而異、各地不同",
+        "note": "",
+        "sourceId": "V788"
+      },
+      {
+        "word": "legible",
+        "meaning": "清楚可辨識的、容易理解的",
+        "note": "",
+        "sourceId": "V789"
+      },
+      {
+        "word": "cohesion",
+        "meaning": "凝聚、一致性",
+        "note": "",
+        "sourceId": "V790"
+      },
+      {
+        "word": "stream",
+        "meaning": "一連串、源源不斷",
+        "note": "",
+        "sourceId": "V791"
+      },
+      {
+        "word": "paucity",
+        "meaning": "dearth = scarcity = 缺乏",
+        "note": "",
+        "sourceId": "V792"
+      },
+      {
+        "word": "glut",
+        "meaning": "surfeit = excess = 過多",
+        "note": "",
+        "sourceId": "V793"
+      },
+      {
+        "word": "erratic",
+        "meaning": "不穩定的、反覆無常的",
+        "note": "",
+        "sourceId": "V794"
+      },
+      {
+        "word": "unflagging",
+        "meaning": "indefatigable = tireless = 不知疲倦的、持久不懈的",
+        "note": "",
+        "sourceId": "V795"
+      },
+      {
+        "word": "uncharacteristically",
+        "meaning": "反常地、不像平常地",
+        "note": "",
+        "sourceId": "V796"
+      },
+      {
+        "word": "insular",
+        "meaning": "parochial = 封閉的",
+        "note": "",
+        "sourceId": "V797"
+      },
+      {
+        "word": "futuristic",
+        "meaning": "未來主義的、關於未來的",
+        "note": "",
+        "sourceId": "V798"
+      },
+      {
+        "word": "ballistics",
+        "meaning": "彈道學、槍械相關",
+        "note": "",
+        "sourceId": "V799"
+      },
+      {
+        "word": "paralyze",
+        "meaning": "使癱瘓",
+        "note": "",
+        "sourceId": "V800"
+      },
+      {
+        "word": "incapacitate",
+        "meaning": "使失去行動能力",
+        "note": "",
+        "sourceId": "V801"
+      },
+      {
+        "word": "shade",
+        "meaning": "色調；細微差異、層次（本題語意）",
+        "note": "",
+        "sourceId": "V802"
+      },
+      {
+        "word": "nuance",
+        "meaning": "細微差別、微妙之處",
+        "note": "",
+        "sourceId": "V803"
+      },
+      {
+        "word": "obscurity",
+        "meaning": "模糊、不清楚；晦澀之處",
+        "note": "",
+        "sourceId": "V804"
+      },
+      {
+        "word": "reminders",
+        "meaning": "提醒物",
+        "note": "",
+        "sourceId": "V805"
+      },
+      {
+        "word": "nuances",
+        "meaning": "細微差異、微妙層次",
+        "note": "",
+        "sourceId": "V806"
+      },
+      {
+        "word": "obscurities",
+        "meaning": "模糊／晦澀之處",
+        "note": "",
+        "sourceId": "V807"
+      },
+      {
+        "word": "coverings",
+        "meaning": "覆蓋物",
+        "note": "",
+        "sourceId": "V808"
+      },
+      {
+        "word": "degrees",
+        "meaning": "程度、等級",
+        "note": "",
+        "sourceId": "V809"
+      },
+      {
+        "word": "touted",
+        "meaning": "被吹捧／被譽為",
+        "note": "",
+        "sourceId": "V810"
+      },
+      {
+        "word": "atypical",
+        "meaning": "非典型的",
+        "note": "",
+        "sourceId": "V811"
+      },
+      {
+        "word": "maneuverable",
+        "meaning": "靈活操控的、機動性高的",
+        "note": "",
+        "sourceId": "V812"
+      },
+      {
+        "word": "disgorge",
+        "meaning": "吐出、湧出；大量說出／交出 → 在這裡可理解成「把腦中的資訊吐出來、提取出來」",
+        "note": "",
+        "sourceId": "V813"
+      },
+      {
+        "word": "legitimize",
+        "meaning": "使合法化、使正當化",
+        "note": "",
+        "sourceId": "V814"
+      },
+      {
+        "word": "augment",
+        "meaning": "增加、增強",
+        "note": "",
+        "sourceId": "V815"
+      },
+      {
+        "word": "longer-term",
+        "meaning": "較長期的",
+        "note": "",
+        "sourceId": "V816"
+      },
+      {
+        "word": "requirement",
+        "meaning": "必要條件、要求",
+        "note": "",
+        "sourceId": "V817"
+      }
+    ]
+  }
+]

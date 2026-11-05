@@ -1,0 +1,26 @@
+import {PDFDocument,rgb,PDFFont,PDFPage} from 'pdf-lib';
+import fontkit from '@pdf-lib/fontkit';
+import type {Note,Block} from '../lib/types';
+export async function createNotebookPdf(notes:Note[],fontBytes:ArrayBuffer|Uint8Array,readImage:(url:string)=>Promise<Uint8Array>,status?:(s:string)=>void){
+ const doc=await PDFDocument.create();doc.registerFontkit(fontkit);const font=await doc.embedFont(fontBytes,{subset:false});
+ doc.setTitle('GRE 錯題筆記');doc.setAuthor('GRE 筆記本');
+ const width=595.28,height=841.89,margin=34,W=width-2*margin,ink=rgb(.18,.20,.22),orange=rgb(.984,.89,.808),line=rgb(.86,.87,.84);let page:PDFPage,y=height-margin,pageNo=0;
+ function newPage(){page=doc.addPage([width,height]);y=height-margin;pageNo++;page.drawText('GRE · '+new Date().toLocaleDateString('sv-SE',{timeZone:'Asia/Taipei'}),{x:margin,y:18,size:8,font,color:ink});page.drawText(String(pageNo),{x:width-margin-12,y:18,size:8,font,color:ink});}
+ function ensure(h:number){if(!page||y-h<40)newPage();}
+ const tw=(s:string,size:number)=>font.widthOfTextAtSize(s,size);
+ function wrap(text:string,max:number,size=9.3){const result:string[]=[];for(const line of text.replace(/\r/g,'').split('\n')){let current='';const tokens=line.match(/[A-Za-z0-9_]+|[^A-Za-z0-9_]/gu)||[''];for(const token of tokens){if(tw(current+token,size)<=max){current+=token;continue;}if(current){result.push(current);current='';}if(tw(token,size)>max){for(const c of token){if(tw(current+c,size)>max){result.push(current);current='';}current+=c;}}else current=token;}result.push(current);}return result;}
+ function text(s:string,size=9.3,max=W,x=margin){for(const l of wrap(s,max,size)){ensure(size*1.5);y-=size*1.5;if(l)page.drawText(l,{x,y,size,font,color:ink});}y-=4;}
+ function band(s:string,size=11){ensure(30);y-=24;page.drawRectangle({x:margin,y,width:W,height:22,color:orange});page.drawText(s,{x:margin+7,y:y+6,size,font,color:ink});y-=8;}
+ async function image(url:string){const bytes=await readImage(url);let img;if(bytes[0]===137)img=await doc.embedPng(bytes);else if(bytes[0]===255)img=await doc.embedJpg(bytes);else throw Error('圖片格式需先轉換為PNG');const scale=Math.min(W/img.width,250/img.height,1);const w=img.width*scale,h=img.height*scale;ensure(h+8);y-=h;page.drawImage(img,{x:margin,y,width:w,height:h});y-=8;}
+ function table(rows:string[][],widths?:number[]){if(!rows.length)return;const cols=Math.max(...rows.map(r=>r.length));const ww=widths||Array(cols).fill(W/cols);for(let ri=0;ri<rows.length;ri++){let cells=Array.from({length:cols},(_,i)=>wrap(rows[ri][i]||'',ww[i]-12));let offset=0;const length=Math.max(...cells.map(c=>c.length));while(offset<length){const remaining=length-offset;const desired=remaining*14+12;if(desired<700)ensure(desired);else ensure(40);let count=Math.max(1,Math.min(remaining,Math.floor((y-40-12)/14)));const h=count*14+12;let x=margin;for(let col=0;col<cols;col++){page.drawRectangle({x,y:y-h,width:ww[col],height:h,color:widths&&col===0?orange:ri===0&&!widths?orange:rgb(1,1,1),borderColor:line,borderWidth:.4});for(let k=0;k<count;k++){const s=cells[col][offset+k];if(s)page.drawText(s,{x:x+6,y:y-16-k*14,size:9.3,font,color:ink});}x+=ww[col];}y-=h;offset+=count;if(offset<length)newPage();}}y-=8;}
+ async function blocks(bs:Block[]){for(const b of bs){if(b.type==='text')text(b.text);else if(b.type==='table')table(b.rows);else{await image(b.url);if(b.alt)text(b.alt,8);}}}
+ let section='';
+ for(let i=0;i<notes.length;i++){const n=notes[i];status?.('正在產生 PDF：'+(i+1)+' / '+notes.length);const group=n.section+(n.category?' / '+n.category:'');if(group!==section){if(pageNo)newPage();else ensure(1);section=group;text('GRE 錯題筆記 — '+group,17);y-=8;}ensure(280);band((i+1)+'. '+n.title);text(n.source+'　'+n.answer,8);for(const url of n.images)await image(url);if(n.section==='Quan'){band('筆記',10);await blocks(n.blocks);}else{table([['可能不熟的生字',n.vocabulary],['選項單字',n.options],['邏輯線索',n.clues],['檢討補充',n.commentary],['錯因',n.reason]],[87,W-87]);await blocks(n.blocks);}y-=14;}
+ if(!pageNo)newPage();return doc.save();
+}
+export async function downloadNotebookPdf(notes:Note[],status:(s:string)=>void){
+ status('正在載入 PDF 字型…');const r=await fetch('/fonts/NotoSansCJKtc-Bold.otf');if(!r.ok)throw Error('PDF字型載入失敗，請重試。');
+ const read=async(url:string)=>{const r=await fetch(url);if(!r.ok)throw Error('圖片載入失敗，請重試。');const bytes=new Uint8Array(await r.arrayBuffer());if(bytes[0]===137||bytes[0]===255)return bytes;const bitmap=await createImageBitmap(new Blob([bytes]));const canvas=document.createElement('canvas');canvas.width=bitmap.width;canvas.height=bitmap.height;canvas.getContext('2d')!.drawImage(bitmap,0,0);const png=await new Promise<Blob>((resolve,reject)=>canvas.toBlob(b=>b?resolve(b):reject(Error('無法轉換圖片')),'image/png'));bitmap.close();return new Uint8Array(await png.arrayBuffer());};
+ const bytes=await createNotebookPdf(notes,await r.arrayBuffer(),read,status);const blob=new Blob([bytes as BlobPart],{type:'application/pdf'});const url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='GRE錯題筆記-'+new Date().toLocaleDateString('sv-SE',{timeZone:'Asia/Taipei'})+'.pdf';a.click();setTimeout(()=>URL.revokeObjectURL(url),60000);status('PDF 已產生，可下載保存。');
+}
+

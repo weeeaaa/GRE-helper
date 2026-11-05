@@ -1,0 +1,2 @@
+export type Block = {type:'text';text:string}|{type:'image';url:string;alt:string}|{type:'table';rows:string[][]};
+export type Note = {id:string;title:string;section:'Quan'|'Verbal';category:string;answer:string;source:string;images:string[];blocks:Block[];vocabulary:string;options:string;clues:string;commentary:string;reason:string;original:string;revision:number;reviewQuestion?:string;reviewAnswer?:string;updatedAt?:string};

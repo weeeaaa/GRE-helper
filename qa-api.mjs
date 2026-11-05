@@ -1,0 +1,15 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs/promises';
+const base='http://127.0.0.1:5188';
+const login=await fetch(base+'/signin-with-chatgpt?return_to=/',{redirect:'manual'});
+const cookie=login.headers.getSetCookie().map(c=>c.split(';')[0]).join('; ');
+const call=async(path,options={})=>fetch(base+path,{...options,headers:{Cookie:cookie,...(options.headers||{})}});
+let r=await call('/api/notes');assert.equal(r.status,200);let notes=await r.json();assert.equal(notes.length,26);
+const original=notes.find(n=>n.id==='E001');assert.equal(original.blocks.find(b=>b.type==='table').rows.length,3);
+const v=structuredClone(notes.find(n=>n.id==='E005'));v.id='QA_LOCAL';v.revision=0;v.reason='由使用者親自填的錯因';v.original='保留原始敘述';
+r=await call('/api/notes',{method:'PUT',headers:{'Content-Type':'application/json'},body:JSON.stringify(v)});assert.equal(r.status,200);let saved=await r.json();assert.equal(saved.revision,1);
+r=await call('/api/notes',{method:'PUT',headers:{'Content-Type':'application/json'},body:JSON.stringify(v)});assert.equal(r.status,409);
+r=await call('/mcp',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({jsonrpc:'2.0',id:1,method:'tools/call',params:{name:'prepare_gre_review',arguments:{id:'QA_LOCAL',revision:1,commentary:'查證後的補充',reason:'不應覆蓋'}}})});const m=await r.json();const next=JSON.parse(m.result.content[0].text);assert.equal(next.reason,v.reason);assert.equal(next.original,v.original);assert.equal(next.commentary,'查證後的補充');
+let fd=new FormData();const bytes=await fs.readFile('public/questions/03.png');fd.append('file',new Blob([bytes],{type:'image/png'}),'percent.png');r=await call('/api/upload',{method:'POST',body:fd});assert.equal(r.status,200);const asset=await r.json();r=await call(asset.url);assert.equal(r.status,200);assert.deepEqual(Buffer.from(await r.arrayBuffer()),bytes);
+r=await call('/api/notes?history=QA_LOCAL');const h=await r.json();assert.equal(h.length,1);assert.equal(h[0].note.reason,v.reason);
+console.log('PASS: original 26 notes, editable Quan table, persistence, stale-write protection, AI cannot overwrite reason/original, image upload/read, version history.');

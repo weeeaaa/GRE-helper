@@ -1,0 +1,571 @@
+[
+  {
+    "id": "E001",
+    "title": "單利與時間單位",
+    "section": "Quan",
+    "category": "觀念加強",
+    "answer": "B；截圖答案：B；類別：答對但耗時3分18秒",
+    "source": "GRE Note 截圖題號 3369",
+    "images": [
+      "/questions/01.png"
+    ],
+    "blocks": [
+      {
+        "type": "text",
+        "text": "SImple Interest"
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "Annual Interest\nRate = r",
+            "Simple interest",
+            "Complex interest"
+          ],
+          [
+            "以年為單位 ( t 年 )",
+            "Total = Original * ( 1+ r * t )",
+            "Total = Original * ( 1+ r ) ^ t"
+          ],
+          [
+            "以月為單位\n( m 個月 )",
+            "Total = Original * ( 1+ r * (m/12) )",
+            "Total = Original * ( 1+ r/12 ) ^ (m)"
+          ]
+        ]
+      },
+      {
+        "type": "text",
+        "text": "檢討補充：5000 × (1 + 0.06 × 9/12) = 5225。先把月份轉成年。月複利公式需要「名目年利率、按月複利」條件；不能把任何年利率直接除12。 原表 Complex interest 應為 Compound interest；月複利一欄須限定為名目年利率 r、每月複利。"
+      }
+    ],
+    "vocabulary": "",
+    "options": "",
+    "clues": "",
+    "commentary": "5000 × (1 + 0.06 × 9/12) = 5225。先把月份轉成年。月複利公式需要「名目年利率、按月複利」條件；不能把任何年利率直接除12。",
+    "reason": "",
+    "original": "SImple Interest",
+    "revision": 0
+  },
+  {
+    "id": "E002",
+    "title": "百分比增加",
+    "section": "Quan",
+    "category": "觀念加強",
+    "answer": "E；截圖答案：D；類別：基準量誤判",
+    "source": "GRE Note 截圖題號 2896",
+    "images": [
+      "/questions/02.png"
+    ],
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Percent increase : 跟原來比增加多少"
+      },
+      {
+        "type": "image",
+        "url": "/questions/03.png",
+        "alt": "原本百分比解法圖"
+      },
+      {
+        "type": "text",
+        "text": "檢討補充：20% 增至60%：增加40個百分點；相對增幅為 (60-20)/20 = 200%。300% 是新值為原值的百分比。"
+      }
+    ],
+    "vocabulary": "",
+    "options": "",
+    "clues": "",
+    "commentary": "20% 增至60%：增加40個百分點；相對增幅為 (60-20)/20 = 200%。300% 是新值為原值的百分比。",
+    "reason": "",
+    "original": "Percent increase : 跟原來比增加多少",
+    "revision": 0
+  },
+  {
+    "id": "E003",
+    "title": "每件利潤",
+    "section": "Quan",
+    "category": "粗心",
+    "answer": "9100；截圖答案：1.4；類別：回答了總量",
+    "source": "GRE Note 截圖題號 12023",
+    "images": [
+      "/questions/04.png"
+    ],
+    "blocks": [
+      {
+        "type": "text",
+        "text": "(粗心)"
+      },
+      {
+        "type": "text",
+        "text": "看清楚題目好嗎 是 profit per widget 不是 total profit !!!"
+      },
+      {
+        "type": "text",
+        "text": "檢討補充：每件成本7150/6500=1.10；每件利潤2.50-1.10=1.40。9100 是總利潤。"
+      }
+    ],
+    "vocabulary": "",
+    "options": "",
+    "clues": "",
+    "commentary": "每件成本7150/6500=1.10；每件利潤2.50-1.10=1.40。9100 是總利潤。",
+    "reason": "",
+    "original": "看清楚題目好嗎 是 profit per widget 不是 total profit !!!",
+    "revision": 0
+  },
+  {
+    "id": "E004",
+    "title": "相遇路程比",
+    "section": "Quan",
+    "category": "粗心",
+    "answer": "E；截圖答案：D；類別：分母讀錯",
+    "source": "GRE Note 截圖題號 12024",
+    "images": [
+      "/questions/05.png"
+    ],
+    "blocks": [
+      {
+        "type": "text",
+        "text": "AM/AB 不是 AM/BM"
+      },
+      {
+        "type": "text",
+        "text": "檢討補充：同時相遇，路程比80:60=4:3；AM/AB=4/(4+3)=4/7。AM/BM 才是4/3。"
+      }
+    ],
+    "vocabulary": "",
+    "options": "",
+    "clues": "",
+    "commentary": "同時相遇，路程比80:60=4:3；AM/AB=4/(4+3)=4/7。AM/BM 才是4/3。",
+    "reason": "",
+    "original": "AM/AB 不是 AM/BM",
+    "revision": 0
+  },
+  {
+    "id": "E005",
+    "title": "轉折與對象範圍",
+    "section": "Verbal",
+    "category": "",
+    "answer": "D；截圖答案：B；類別：轉折",
+    "source": "GRE Note 截圖題號 9565",
+    "images": [
+      "/questions/06.png"
+    ],
+    "blocks": [],
+    "vocabulary": "the New Deal 新政\nconstituent 選民",
+    "options": "disregard = 忽視 = ignore\nbemoan = 哀嘆 = lament\ndispute = 質疑 不認同 = challenge\ndownplay = 淡化 = minimize",
+    "clues": "nonetheless 轉折",
+    "commentary": "nonetheless 連接「哀嘆全民問題」與「行動只顧選民」的落差。dispute 會否認前面的問題，不符合這個對照。",
+    "reason": "nonetheless 有轉折 後句為只顧自己選民 而前句為_所有人的問題\n所以應該要選一個有意識到這是所有人的問題的語意",
+    "original": "邏輯線索：nonetheless 轉折 / 生字：the New Deal 新政\nconstituent 選民 / 選項：disregard = 忽視 = ignore\nbemoan = 哀嘆 = lament\ndispute = 質疑 不認同 = challenge\ndownplay = 淡化 = minimize  / 錯因：nonetheless 有轉折 後句為只顧自己選民 而前句為_所有人的問題\n所以應該要選一個有意識到這是所有人的問題的語意",
+    "revision": 0
+  },
+  {
+    "id": "E006",
+    "title": "rare 與名詞搭配",
+    "section": "Verbal",
+    "category": "",
+    "answer": "BD；截圖答案：CD；類別：字義和語境",
+    "source": "GRE Note 截圖題號 11391",
+    "images": [
+      "/questions/07.png"
+    ],
+    "blocks": [],
+    "vocabulary": "",
+    "options": "ardor = 熱情 = passion\ncordiality = 親切、友善 = friendliness\nrestraint = 克制、自制\ndouse = 澆熄、壓制\nexpedite = 加速\npublicize = 宣傳、公開",
+    "clues": "",
+    "commentary": "rare restraint 是難得克制；angrily charged 顯示這次生氣。rare cordiality 仍表示此次有親切，不能讀成不親切。第二空 douse 對應壓制討論。",
+    "reason": "rare cordiality 不是不親切 而是難得的親切",
+    "original": "選項：ardor = 熱情 = passion\ncordiality = 親切、友善 = friendliness\nrestraint = 克制、自制\ndouse = 澆熄、壓制\nexpedite = 加速\npublicize = 宣傳、公開  / 錯因：rare cordiality 不是不親切 而是難得的親切",
+    "revision": 0
+  },
+  {
+    "id": "E007",
+    "title": "連續與斷裂",
+    "section": "Verbal",
+    "category": "",
+    "answer": "CDG；截圖答案：ADH；類別：字義與關係",
+    "source": "GRE Note 截圖題號 11275",
+    "images": [
+      "/questions/08.png"
+    ],
+    "blocks": [],
+    "vocabulary": "disparate = 截然不同的\nentity = 事物、實體",
+    "options": "weave = 編織、串連\nshun = 避開\nuntangle = 解開、理清\nimperiousness = 專橫、盛氣凌人\ninexorableness = 無法阻止、不可避免\nstrangeness = 陌生、奇異\nlucidity = 清晰、明瞭",
+    "clues": "",
+    "commentary": "rope together 支持 weave；But、discontinuity 支持 interruptedness；unfamiliar 支持 strangeness。不能只用正負面猜。",
+    "reason": "(i) rope together the disparate world 是正向的 所以不應該把他們untangle\n(iii) strangeness 不只是奇怪 還有陌生的意思",
+    "original": "生字：disparate = 截然不同的\nentity = 事物、實體  / 選項：weave = 編織、串連\nshun = 避開\nuntangle = 解開、理清\nimperiousness = 專橫、盛氣凌人\ninexorableness = 無法阻止、不可避免\nstrangeness = 陌生、奇異\nlucidity = 清晰、明瞭  / 錯因：(i) rope together the disparate world 是正向的 所以不應該把他們untangle\n(iii) strangeness 不只是奇怪 還有陌生的意思",
+    "revision": 0
+  },
+  {
+    "id": "E008",
+    "title": "例子的論證功能",
+    "section": "Verbal",
+    "category": "",
+    "answer": "A；截圖答案：D；類別：主旨與功能",
+    "source": "GRE Note 截圖題號 11700",
+    "images": [
+      "/questions/09.png"
+    ],
+    "blocks": [],
+    "vocabulary": "preference = 偏好",
+    "options": "account for = (1) 解釋 (2) 占...比例",
+    "clues": "Yet 轉折",
+    "commentary": "Yet 後列不理性行為，是質疑實際選擇能反映真偏好的假設；不是解釋口頭意圖與行動不同。",
+    "reason": "沒有抓到 yet 的轉折 以為後面都在支持 其實是都在推翻",
+    "original": "邏輯線索：Yet 轉折 / 生字：preference = 偏好 / 選項：account for = (1) 解釋 (2) 占...比例 / 錯因：沒有抓到 yet 的轉折 以為後面都在支持 其實是都在推翻",
+    "revision": 0
+  },
+  {
+    "id": "E009",
+    "title": "mixed 的語境義",
+    "section": "Verbal",
+    "category": "",
+    "answer": "C；截圖答案：D；類別：詞義定位",
+    "source": "GRE Note 截圖題號 11700續",
+    "images": [
+      "/questions/10.png"
+    ],
+    "blocks": [
+      {
+        "type": "text",
+        "text": "(承上題)"
+      }
+    ],
+    "vocabulary": "",
+    "options": "convoluted = 複雜的\nadulterated = 摻雜 被汙染的",
+    "clues": "",
+    "commentary": "沿用前題文章；對幸福的關係複雜矛盾，mixed 在此接近 convoluted。不能單憑 relationship 一字就普遍推定 mixed 的意思。",
+    "reason": "relationship 就已經在表明關係了 這裡的 mixed 是複雜的意思",
+    "original": "選項：convoluted = 複雜的\nadulterated = 摻雜 被汙染的 / 錯因：relationship 就已經在表明關係了 這裡的 mixed 是複雜的意思",
+    "revision": 0
+  },
+  {
+    "id": "E010",
+    "title": "掩飾野心",
+    "section": "Verbal",
+    "category": "",
+    "answer": "CE；截圖答案：CE；類別：原筆記記為猜對",
+    "source": "GRE Note 截圖題號 11041",
+    "images": [
+      "/questions/11.png"
+    ],
+    "blocks": [],
+    "vocabulary": "shroud A in B = 用 B 掩飾 A\ncutthroat = 激烈競爭的、不擇手段的\nelude = 使人做不到／避開、逃脫",
+    "options": "tenacity = 堅持、韌性\nhumility = 謙遜\nnonchalance = 若無其事、漫不經心\ninsouciance = 無憂無慮、漫不經心\ndoggedness = 頑強、堅持",
+    "clues": "",
+    "commentary": "cutthroat ambition 被表面的不在意掩飾；nonchalance 與 insouciance 在這句相近。答對仍需獨立解釋。",
+    "reason": "猜對",
+    "original": "生字：shroud A in B = 用 B 掩飾 A\ncutthroat = 激烈競爭的、不擇手段的\nelude = 使人做不到／避開、逃脫  / 選項：tenacity = 堅持、韌性\nhumility = 謙遜\nnonchalance = 若無其事、漫不經心\ninsouciance = 無憂無慮、漫不經心\ndoggedness = 頑強、堅持  / 錯因：猜對",
+    "revision": 0
+  },
+  {
+    "id": "E011",
+    "title": "決斷與猶豫",
+    "section": "Verbal",
+    "category": "",
+    "answer": "CE；截圖答案：CD；類別：單字",
+    "source": "GRE Note 截圖題號 11052",
+    "images": [
+      "/questions/12.png"
+    ],
+    "blocks": [],
+    "vocabulary": "be marred by + 負面事物 = 因...而受損",
+    "options": "vacillation = 搖擺不定、猶豫\nbelligerence = 好鬥、敵意\npugnacity = 好鬥、愛爭鬥",
+    "clues": "in stark contrast to = 與……形成鮮明對比",
+    "commentary": "decisive 的對比是 vacillation／irresolution。belligerence、pugnacity 是好鬥，不能只因是負面詞就選。",
+    "reason": "單字不會",
+    "original": "邏輯線索：in stark contrast to = 與……形成鮮明對比  / 生字：be marred by + 負面事物 = 因...而受損 / 選項：vacillation = 搖擺不定、猶豫\nbelligerence = 好鬥、敵意\npugnacity = 好鬥、愛爭鬥  / 錯因：單字不會",
+    "revision": 0
+  },
+  {
+    "id": "E012",
+    "title": "可笑不等於異常",
+    "section": "Verbal",
+    "category": "",
+    "answer": "DF；截圖答案：BD；類別：近義辨析",
+    "source": "GRE Note 截圖題號 9472",
+    "images": [
+      "/questions/13.png"
+    ],
+    "blocks": [],
+    "vocabulary": "",
+    "options": "animated = 生動的、活潑的\nrisible = 可笑的、引人發笑\ncomely = 好看的、秀麗的\nludicrous = 荒謬可笑的、滑稽的\nanomalous = 異常的、不尋常的",
+    "clues": "",
+    "commentary": "trigger laughter 要求可笑；risible／ludicrous 都符合。anomalous 只表示異常，沒有必然引人發笑。",
+    "reason": "長的異常不一定會引人發笑 應該要刪的掉這個選項剩下猜",
+    "original": "選項：animated = 生動的、活潑的\nrisible = 可笑的、引人發笑\ncomely = 好看的、秀麗的\nludicrous = 荒謬可笑的、滑稽的\nanomalous = 異常的、不尋常的  / 錯因：長的異常不一定會引人發笑 應該要刪的掉這個選項剩下猜",
+    "revision": 0
+  },
+  {
+    "id": "E013",
+    "title": "研究的基礎",
+    "section": "Verbal",
+    "category": "",
+    "answer": "DF；截圖答案：BD；類別：關係詞義",
+    "source": "GRE Note 截圖題號 11078",
+    "images": [
+      "/questions/14.png"
+    ],
+    "blocks": [],
+    "vocabulary": "vanguard research = 前沿研究",
+    "options": "contradicted by = 被……反駁\nundergirded by = 被……支撐、以……為基礎\ndependent on = 依賴……\nelucidated by = 被……闡明、解釋",
+    "clues": "",
+    "commentary": "定理重要，因當代研究受它支撐／依賴它。undergirded by 和 dependent on 在此同向；elucidated by 只是被解釋。",
+    "reason": "單字不會",
+    "original": "生字：vanguard research = 前沿研究  / 選項：contradicted by = 被……反駁\nundergirded by = 被……支撐、以……為基礎\ndependent on = 依賴……\nelucidated by = 被……闡明、解釋  / 錯因：單字不會",
+    "revision": 0
+  },
+  {
+    "id": "E014",
+    "title": "未說明不等於否認",
+    "section": "Verbal",
+    "category": "",
+    "answer": "D；截圖答案：B；類別：推論強度",
+    "source": "GRE Note 截圖題號 10928",
+    "images": [
+      "/questions/15.png"
+    ],
+    "blocks": [],
+    "vocabulary": "impact = 撞擊\npostulate = 假設、提出",
+    "options": "",
+    "clues": "",
+    "commentary": "some novel mechanism 未交代使地面下沉的具體力量。沒有說明力量，不等於否认地質構造活動。",
+    "reason": "through some novel mechanism 不是全盤否定 tectonic activity 只是未說明大略提過這樣 所以 D 的 deny 太強烈了",
+    "original": "生字：impact = 撞擊\npostulate = 假設、提出  / 錯因：through some novel mechanism 不是全盤否定 tectonic activity 只是未說明大略提過這樣 所以 D 的 deny 太強烈了",
+    "revision": 0
+  },
+  {
+    "id": "E015",
+    "title": "讓步與耕地",
+    "section": "Verbal",
+    "category": "",
+    "answer": "A；截圖答案：C；類別：單字",
+    "source": "GRE Note 截圖題號 10964",
+    "images": [
+      "/questions/16.png"
+    ],
+    "blocks": [
+      {
+        "type": "text",
+        "text": "marginal improvement = 很小的改善\nmarginal land / soil = 貧瘠、低產、耕作條件差的土地／土壤\nmarginal profit = 邊際利潤\n賣 100 個時，總利潤 = $1,000\n賣 101 個時，總利潤 = $1,008\n邊際利潤 = $8"
+      }
+    ],
+    "vocabulary": "predisposition = 先天傾向／特性\nappreciable yield = 相當可觀的產量\nmarginal soil = 貧瘠／品質較差、不適合耕作的土壤",
+    "options": "arable = 適合耕作的\nmarginal = 貧瘠的、條件差的\nchoice = 優質的、精選的",
+    "clues": "notwithstanding 儘管",
+    "commentary": "能承受壓力且仍有可觀產量，cultivation ... notwithstanding 表示即使在條件差的 marginal soils。",
+    "reason": "單字部會",
+    "original": "邏輯線索：notwithstanding 儘管 / 生字：predisposition = 先天傾向／特性\nappreciable yield = 相當可觀的產量\nmarginal soil = 貧瘠／品質較差、不適合耕作的土壤  / 選項：arable = 適合耕作的\nmarginal = 貧瘠的、條件差的\nchoice = 優質的、精選的  / 錯因：單字部會 / 補充：marginal improvement = 很小的改善\nmarginal land / soil = 貧瘠、低產、耕作條件差的土地／土壤\nmarginal profit = 邊際利潤\n賣 100 個時，總利潤 = $1,000\n賣 101 個時，總利潤 = $1,008\n邊際利潤 = $8",
+    "revision": 0
+  },
+  {
+    "id": "E016",
+    "title": "膨脹與合併",
+    "section": "Verbal",
+    "category": "",
+    "answer": "AD；截圖答案：BD；類別：記反字義",
+    "source": "GRE Note 截圖題號 9573",
+    "images": [
+      "/questions/17.png"
+    ],
+    "blocks": [],
+    "vocabulary": "",
+    "options": "swell = 膨脹、變大\ncoalesce = 合併、融合\nimplode = 向內爆裂／坍縮",
+    "clues": "",
+    "commentary": "後文黑洞 merge 支持星系 coalesce（合併）。swell 是膨脹，不是縮小；但會膨脹也不等於合併。",
+    "reason": "把 swell 的意思記成縮水",
+    "original": "選項：swell = 膨脹、變大\ncoalesce = 合併、融合\nimplode = 向內爆裂／坍縮 / 錯因：把 swell 的意思記成縮水",
+    "revision": 0
+  },
+  {
+    "id": "E017",
+    "title": "複選逐項找證據",
+    "section": "Verbal",
+    "category": "",
+    "answer": "AB；截圖答案：B；類別：多選與不支持推論",
+    "source": "GRE Note 截圖題號 11779",
+    "images": [
+      "/questions/18.png"
+    ],
+    "blocks": [],
+    "vocabulary": "amid = 在……之中；在……期間\nintellectual foundation = 思想基礎、觀念基礎\nfixity = 固定、不變\nworldview = 世界觀、看事情的整體觀念 (是名詞不是形容詞！！)\necological = 生態的、生態學的\nhinder = 阻礙",
+    "options": "",
+    "clues": "",
+    "commentary": "採用部分技術不代表世界觀受到深刻改變。B 對應 fixity 阻礙利用季節性資源；多選不表示一定要選兩個。",
+    "reason": "這種複選題有可能只有一個答案\n然後 A 是錯的 因為他說他們的 worldview 一個 fixity 一個 mobility 是相反且沒有被影響的",
+    "original": "生字：amid = 在……之中；在……期間 \nintellectual foundation = 思想基礎、觀念基礎 \nfixity = 固定、不變\nworldview = 世界觀、看事情的整體觀念 (是名詞不是形容詞！！)\necological = 生態的、生態學的\nhinder = 阻礙  / 錯因：這種複選題有可能只有一個答案 \n然後 A 是錯的 因為他說他們的 worldview 一個 fixity 一個 mobility 是相反且沒有被影響的",
+    "revision": 0
+  },
+  {
+    "id": "E018",
+    "title": "主旨和證據",
+    "section": "Verbal",
+    "category": "",
+    "answer": "B；截圖答案：E；類別：主旨",
+    "source": "GRE Note 截圖題號 11693",
+    "images": [
+      "/questions/19.png"
+    ],
+    "blocks": [],
+    "vocabulary": "elsewhere = 其他地方、別處\nethnographic = 民族誌的\nrobustly = 強有力地、有力地、強烈地\naccount = (1) 記述、報導、描述 (2) 帳戶\ntimeless = unchanged through time = 永恆的、不隨時間改變的\ntraditionalism = 傳統主義\nevolving = 不斷演變的\nmodern = 現代的、近代的\nsumptuary laws = 限制服飾與消費的法律\nincorporate / incorporating = 納入、加入、融入\nuniform = 一致的、統一的；制服\npurportedly = 據稱、號稱、表面上所謂的\nvary by locality / varied by locality = 因地區而異、各地不同\nlegible = 清楚可辨識的、容易理解的\ncohesion = 凝聚、一致性",
+    "options": "",
+    "clues": "",
+    "commentary": "外界以為服飾是古老固定傳統；作者用近代形成與持續改變的細節反駁。各地差異是證據，不是全文主旨。",
+    "reason": "文章不是主要在比較「Breton 和法國其他地方衣服有何不同」。那些內容只是證據。全文真正主旨是：大家以為 Breton costume 是古老不變的傳統，其實它是近代形成、一直變化的。",
+    "original": "生字：elsewhere = 其他地方、別處\nethnographic = 民族誌的\nrobustly = 強有力地、有力地、強烈地\naccount = (1) 記述、報導、描述 (2) 帳戶\ntimeless = unchanged through time = 永恆的、不隨時間改變的\ntraditionalism = 傳統主義\nevolving = 不斷演變的\nmodern = 現代的、近代的\nsumptuary laws = 限制服飾與消費的法律\nincorporate / incorporating = 納入、加入、融入\nuniform = 一致的、統一的；制服\npurportedly = 據稱、號稱、表面上所謂的\nvary by locality / varied by locality = 因地區而異、各地不同\nlegible = 清楚可辨識的、容易理解的\ncohesion = 凝聚、一致性 / 錯因：文章不是主要在比較「Breton 和法國其他地方衣服有何不同」。那些內容只是證據。全文真正主旨是：大家以為 Breton costume 是古老不變的傳統，其實它是近代形成、一直變化的。",
+    "revision": 0
+  },
+  {
+    "id": "E019",
+    "title": "誰的看法被反駁",
+    "section": "Verbal",
+    "category": "",
+    "answer": "D；截圖答案：C；類別：來源歸屬",
+    "source": "GRE Note 截圖題號 11693續",
+    "images": [
+      "/questions/20.png"
+    ],
+    "blocks": [],
+    "vocabulary": "",
+    "options": "",
+    "clues": "",
+    "commentary": "沿用前題文章；historical and ethnographic accounts 挑戰外界誤解。不能將 accounts 寫成誤導外界的來源。",
+    "reason": "(C) 如果有認知到地區性的差異的話 不會把他當成 cultural cohesion\n(D) historical and ethnographic accounts 報導的是事實",
+    "original": "錯因：(C) 如果有認知到地區性的差異的話 不會把他當成 cultural cohesion\n(D) historical and ethnographic accounts 報導的是事實",
+    "revision": 0
+  },
+  {
+    "id": "E020",
+    "title": "缺乏與過量",
+    "section": "Verbal",
+    "category": "",
+    "answer": "CE；截圖答案：CD；類別：單字",
+    "source": "GRE Note 截圖題號 9483",
+    "images": [
+      "/questions/21.png"
+    ],
+    "blocks": [],
+    "vocabulary": "",
+    "options": "stream = 一連串、源源不斷\npaucity = dearth = scarcity = 缺乏\nglut = surfeit = excess = 過多",
+    "clues": "因為以前資訊很少，所以新資料一出來大家才特別興奮",
+    "commentary": "新資料令人興奮，因以往 paucity／dearth（缺乏）。surfeit／glut 是過量，方向相反。",
+    "reason": "單字不會",
+    "original": "邏輯線索：因為以前資訊很少，所以新資料一出來大家才特別興奮  / 選項：stream = 一連串、源源不斷 \npaucity = dearth = scarcity = 缺乏\nglut = surfeit = excess = 過多  / 錯因：單字不會",
+    "revision": 0
+  },
+  {
+    "id": "E021",
+    "title": "持續不懈",
+    "section": "Verbal",
+    "category": "",
+    "answer": "DF；截圖答案：DF；類別：原筆記記為猜對",
+    "source": "GRE Note 截圖題號 11308",
+    "images": [
+      "/questions/22.png"
+    ],
+    "blocks": [],
+    "vocabulary": "",
+    "options": "erratic = 不穩定的、反覆無常的\nunflagging = indefatigable = tireless = 不知疲倦的、持久不懈的",
+    "clues": "nonstop",
+    "commentary": "11000公里 nonstop 支持 unflagging／indefatigable。不要用熟悉度取代這個明確線索。",
+    "reason": "完全是猜對",
+    "original": "邏輯線索：nonstop / 選項：erratic = 不穩定的、反覆無常的 \nunflagging = indefatigable = tireless = 不知疲倦的、持久不懈的  / 錯因：完全是猜對",
+    "revision": 0
+  },
+  {
+    "id": "E022",
+    "title": "隔絕與誤導",
+    "section": "Verbal",
+    "category": "",
+    "answer": "DE；截圖答案：BF；類別：選項與句意",
+    "source": "GRE Note 截圖題號 11628",
+    "images": [
+      "/questions/23.png"
+    ],
+    "blocks": [],
+    "vocabulary": "uncharacteristically = 反常地、不像平常地",
+    "options": "insular = parochial = 封閉的",
+    "clues": "",
+    "commentary": "國際交流受阻，所以研究變得 insular／parochial（封閉狹隘）；無從推出研究具有誤導或欺騙性。",
+    "reason": "misleading 跟語意不合 就算不知道 insular 也應該把它刪掉",
+    "original": "生字：uncharacteristically = 反常地、不像平常地  / 選項：insular = parochial = 封閉的 / 錯因：misleading 跟語意不合 就算不知道 insular 也應該把它刪掉",
+    "revision": 0
+  },
+  {
+    "id": "E023",
+    "title": "辨識條件的漏洞",
+    "section": "Verbal",
+    "category": "",
+    "answer": "C；截圖答案：B；類別：削弱推論",
+    "source": "GRE Note 截圖題號 4345",
+    "images": [
+      "/questions/24.png"
+    ],
+    "blocks": [],
+    "vocabulary": "futuristic = 未來主義的、關於未來的\nballistics = 彈道學、槍械相關\nparalyze = 使癱瘓\nincapacitate = 使失去行動能力",
+    "options": "",
+    "clues": "預測的核心假設：機器人看到「晚上拿槍的人」→ 癱瘓他 → 抓到罪犯。但問題是：拿槍的人不一定是罪犯。",
+    "commentary": "這是找預測漏洞的題目。罪犯常帶槍，不能推出帶槍的人都是罪犯；警察也會帶槍，機器人可能同樣使警察失去行動能力。「警察必須不帶槍」不是唯一可行的必要條件。",
+    "reason": "這是邏輯單題的 assumption 的感覺 警察要不帶槍才成立",
+    "original": "邏輯線索：預測的核心假設：機器人看到「晚上拿槍的人」→ 癱瘓他 → 抓到罪犯。但問題是：拿槍的人不一定是罪犯。  / 生字：futuristic = 未來主義的、關於未來的\nballistics = 彈道學、槍械相關\nparalyze = 使癱瘓\nincapacitate = 使失去行動能力 / 錯因：這是邏輯單題的 assumption 的感覺 警察要不帶槍才成立",
+    "revision": 0
+  },
+  {
+    "id": "E024",
+    "title": "shades of meaning",
+    "section": "Verbal",
+    "category": "",
+    "answer": "D；截圖答案：B；類別：多義字",
+    "source": "GRE Note 截圖題號 11751",
+    "images": [
+      "/questions/25.png"
+    ],
+    "blocks": [],
+    "vocabulary": "shade = 色調；細微差異、層次（本題語意）\nnuance = 細微差別、微妙之處\nobscurity = 模糊、不清楚；晦澀之處",
+    "options": "reminders = 提醒物\nnuances = 細微差異、微妙層次\nobscurities = 模糊／晦澀之處\ncoverings = 覆蓋物\ndegrees = 程度、等級",
+    "clues": "each subtly different from all the others → 每個定義都和其他定義有「細微差異」；所以 multiple shades of meaning = 多種「細微不同的意義／語意層次」",
+    "commentary": "subtly different 直接支持 nuances，意義的細微差異；coverings 是字面遮蔽物，不合抽象語境。",
+    "reason": "被 shade 的字面意思誤導。\n想到「shade = 遮蔽物／陰影」，所以選 coverings；但這裡是固定語境 shades of meaning，指「意義上的細微差異」\n下次看到 shade(s) of + 抽象名詞（meaning/opinion/emotion），優先想：細微差別／不同層次",
+    "original": "邏輯線索：each subtly different from all the others → 每個定義都和其他定義有「細微差異」；所以 multiple shades of meaning = 多種「細微不同的意義／語意層次」  / 生字：shade = 色調；細微差異、層次（本題語意）\nnuance = 細微差別、微妙之處\nobscurity = 模糊、不清楚；晦澀之處  / 選項：reminders = 提醒物\nnuances = 細微差異、微妙層次\nobscurities = 模糊／晦澀之處\ncoverings = 覆蓋物\ndegrees = 程度、等級  / 錯因：被 shade 的字面意思誤導。\n想到「shade = 遮蔽物／陰影」，所以選 coverings；但這裡是固定語境 shades of meaning，指「意義上的細微差異」 \n下次看到 shade(s) of + 抽象名詞（meaning/opinion/emotion），優先想：細微差別／不同層次",
+    "revision": 0
+  },
+  {
+    "id": "E025",
+    "title": "Yet 不只是正負號",
+    "section": "Verbal",
+    "category": "",
+    "answer": "CE；截圖答案：CF；類別：搭配與語意",
+    "source": "GRE Note 截圖題號 9382",
+    "images": [
+      "/questions/26.png"
+    ],
+    "blocks": [],
+    "vocabulary": "versatile = 多功能、靈活多變的",
+    "options": "touted = 被吹捧／被譽為\natypical = 非典型的\nmaneuverable = 靈活操控的、機動性高的",
+    "clues": "Yet 後面是負向的 所以前面應該是正向的",
+    "commentary": "前段是被譽為多功能、易操控的飛行機器；Yet 後說理論上不能飛。maneuverable 符合稱讚的能力，atypical 不足以表達。",
+    "reason": "",
+    "original": "邏輯線索：Yet 後面是負向的 所以前面應該是正向的 / 生字：versatile = 多功能、靈活多變的  / 選項：touted = 被吹捧／被譽為\natypical = 非典型的 \nmaneuverable = 靈活操控的、機動性高的",
+    "revision": 0
+  },
+  {
+    "id": "E026",
+    "title": "提取與長期記憶",
+    "section": "Verbal",
+    "category": "",
+    "answer": "ADG；截圖答案：CDG；類別：動詞語意",
+    "source": "GRE Note 截圖題號 11345",
+    "images": [
+      "/questions/27.png"
+    ],
+    "blocks": [],
+    "vocabulary": "",
+    "options": "disgorge = 吐出、湧出；大量說出／交出 → 在這裡可理解成「把腦中的資訊吐出來、提取出來」\nlegitimize = 使合法化、使正當化\naugment = 增加、增強\nlonger-term = 較長期的\nrequirement = 必要條件、要求",
+    "clues": "",
+    "commentary": "沒睡仍能提取先前資訊，故第一空是 disgorge；睡眠可能與長期編碼及最佳化有關，而非回想昨日事件的必要條件。",
+    "reason": "",
+    "original": "選項：disgorge = 吐出、湧出；大量說出／交出 → 在這裡可理解成「把腦中的資訊吐出來、提取出來」\nlegitimize = 使合法化、使正當化\naugment = 增加、增強\nlonger-term = 較長期的\nrequirement = 必要條件、要求",
+    "revision": 0
+  }
+]
