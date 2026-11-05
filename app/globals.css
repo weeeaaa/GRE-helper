@@ -81,3 +81,5 @@ main{margin-left:154px;margin-top:114px;padding:18px 10px;min-width:0}.paper{pad
  .vocab-image-list{grid-template-columns:repeat(auto-fit,minmax(min(160px,100%),1fr))}
  .modal-backdrop{padding:12px}.modal{max-height:85dvh;padding:18px}
 }
+
+.correction-import{width:min(760px,100%)}.correction-import article{border-top:1px solid #dccab6;margin-top:20px;padding-top:16px;overflow-wrap:anywhere}.correction-import h4{background:#fbe3ce;padding:8px;margin:12px 0 6px}.correction-import img{max-width:100%;height:auto}.correction-import .pre{white-space:pre-wrap}.correction-import .create-actions{position:sticky;bottom:0;background:#fffaf4;padding:12px 0}

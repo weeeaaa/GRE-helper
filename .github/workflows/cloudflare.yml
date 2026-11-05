@@ -23,6 +23,7 @@ jobs:
       - run: npx tsc --noEmit
       - run: npm run cf:test
       - run: node scripts/test-vocab-progress.cjs
+      - run: node scripts/test-correction-import.cjs
       - name: Use production resource identifiers (no credentials in this file)
         run: cp cloudflare.production.json cloudflare.config.json
       - run: npm run cf:build
