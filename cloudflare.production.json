@@ -1,0 +1,9 @@
+{
+  "name": "gre-notebook",
+  "account_id": "c8104783e34180ab35324ca0172b925b",
+  "database_name": "gre-notebook-db",
+  "database_id": "74d7a91c-42bd-4cd0-826a-69df220e0f7f",
+  "bucket_name": "gre-notebook-images",
+  "data_user_id": "local_seedy",
+  "access_mode": "public-shared"
+}

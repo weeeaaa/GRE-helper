@@ -54,3 +54,8 @@ next-env.d.ts
 /.codex/
 /outputs/
 /work/
+
+# Personal Cloudflare deployment and full data backups
+/cloudflare.config.json
+/.dev.vars*
+/backups/

@@ -1,0 +1,8 @@
+{
+  "name": "gre-notebook",
+  "database_name": "gre-notebook-db",
+  "database_id": "REPLACE_WITH_D1_DATABASE_ID",
+  "bucket_name": "gre-notebook-images",
+  "data_user_id": "local_seedy",
+  "access_mode": "public-shared"
+}
