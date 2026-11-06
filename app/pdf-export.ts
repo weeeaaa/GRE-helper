@@ -1,5 +1,6 @@
 import {PDFDocument,rgb,PDFFont,PDFPage} from 'pdf-lib';
 import fontkit from '@pdf-lib/fontkit';
+import {withQuanLayout} from '../lib/quan-layout';
 import type {Note,Block} from '../lib/types';
 export async function createNotebookPdf(notes:Note[],fontBytes:ArrayBuffer|Uint8Array,readImage:(url:string)=>Promise<Uint8Array>,status?:(s:string)=>void){
  const doc=await PDFDocument.create();doc.registerFontkit(fontkit);const font=await doc.embedFont(fontBytes,{subset:false});
@@ -15,7 +16,7 @@ export async function createNotebookPdf(notes:Note[],fontBytes:ArrayBuffer|Uint8
  function table(rows:string[][],widths?:number[]){if(!rows.length)return;const cols=Math.max(...rows.map(r=>r.length));const ww=widths||Array(cols).fill(W/cols);for(let ri=0;ri<rows.length;ri++){let cells=Array.from({length:cols},(_,i)=>wrap(rows[ri][i]||'',ww[i]-12));let offset=0;const length=Math.max(...cells.map(c=>c.length));while(offset<length){const remaining=length-offset;const desired=remaining*14+12;if(desired<700)ensure(desired);else ensure(40);let count=Math.max(1,Math.min(remaining,Math.floor((y-40-12)/14)));const h=count*14+12;let x=margin;for(let col=0;col<cols;col++){page.drawRectangle({x,y:y-h,width:ww[col],height:h,color:widths&&col===0?orange:ri===0&&!widths?orange:rgb(1,1,1),borderColor:line,borderWidth:.4});for(let k=0;k<count;k++){const s=cells[col][offset+k];if(s)page.drawText(s,{x:x+6,y:y-16-k*14,size:9.3,font,color:ink});}x+=ww[col];}y-=h;offset+=count;if(offset<length)newPage();}}y-=8;}
  async function blocks(bs:Block[]){for(const b of bs){if(b.type==='text')text(b.text);else if(b.type==='table')table(b.rows);else{await image(b.url);if(b.alt)text(b.alt,8);}}}
  let section='';
- for(let i=0;i<notes.length;i++){const n=notes[i];status?.('正在產生 PDF：'+(i+1)+' / '+notes.length);const group=n.section+(n.category?' / '+n.category:'');if(group!==section){if(pageNo)newPage();else ensure(1);section=group;text('GRE 錯題筆記 — '+group,17);y-=8;}ensure(280);band((i+1)+'. '+n.title);text(n.source+'　'+n.answer,8);for(const url of n.images)await image(url);if(n.section==='Quan'){band('筆記',10);await blocks(n.blocks);}else{table([['可能不熟的生字',n.vocabulary],['選項單字',n.options],['邏輯線索',n.clues],['檢討補充',n.commentary],['錯因',n.reason]],[87,W-87]);await blocks(n.blocks);}y-=14;}
+ for(let i=0;i<notes.length;i++){const n=notes[i];status?.('正在產生 PDF：'+(i+1)+' / '+notes.length);const group=n.section+(n.category?' / '+n.category:'');if(group!==section){if(pageNo)newPage();else ensure(1);section=group;text('GRE 錯題筆記 — '+group,17);y-=8;}ensure(280);band((i+1)+'. '+n.title);text(n.source+'　'+n.answer,8);for(const url of n.images)await image(url);if(n.section==='Quan'){band('Quan 訂正',10);await blocks(withQuanLayout(n).blocks);}else{table([['可能不熟的生字',n.vocabulary],['選項單字',n.options],['邏輯線索',n.clues],['檢討補充',n.commentary],['錯因',n.reason]],[87,W-87]);await blocks(n.blocks);}y-=14;}
  if(!pageNo)newPage();return doc.save();
 }
 export async function downloadNotebookPdf(notes:Note[],status:(s:string)=>void){
