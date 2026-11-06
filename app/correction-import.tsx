@@ -1,13 +1,22 @@
 'use client';
 import {useRef,useState} from 'react';
 import type {Note} from '../lib/types';
-import {parseCorrections} from '../lib/correction-import';
+import {parseCorrections,parseCorrectionText} from '../lib/correction-import';
 const fields=[['vocabulary','可能不熟的生字'],['options','選項單字'],['clues','邏輯線索'],['commentary','檢討補充']] as const;
 export default function CorrectionImport({onClose,onSaved}:{onClose:()=>void;onSaved:(notes:Note[])=>void}){
+ const [pasted,setPasted]=useState('');
+ function previewPaste(value:string){
+  setPasted(value);
+  setNotes([]);
+  setMessage('');
+  if(!value.trim())return;
+  try{setNotes(parseCorrectionText(value));}
+  catch(error){setMessage((error as Error).message);}
+ }
  const [notes,setNotes]=useState<Note[]>([]),[message,setMessage]=useState(''),[busy,setBusy]=useState(false);const input=useRef<HTMLInputElement>(null);
- async function select(file?:File){if(!file)return;setNotes([]);setMessage('');try{if(file.size>6000000)throw Error('檔案太大，請分批匯入。');setNotes(parseCorrections(JSON.parse(await file.text())));}catch(e){setMessage(e instanceof Error?e.message:'無法讀取訂正檔');}finally{if(input.current)input.current.value='';}}
- async function save(){setBusy(true);setMessage('正在匯入…');try{const r=await fetch('/api/notes/import',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({format:'gre-corrections-v1',notes})});const data=await r.json() as {error?:string;notes:Note[];imported:number;skipped:number};if(!r.ok)throw Error(data.error||'匯入失敗');onSaved(data.notes);setNotes([]);setMessage(`已匯入 ${data.imported} 題，跳過 ${data.skipped} 題已存在的筆記。`);}catch(e){setMessage((e as Error).message+'；可重試，不會覆蓋已匯入的題目。');}finally{setBusy(false);}}
- return <div className="modal-backdrop"><section className="modal correction-import" role="dialog" aria-modal="true" aria-labelledby="import-title"><h2 id="import-title">匯入訂正</h2><p>把題目傳到對話，確認訂正後，下載我提供的訂正檔，再到這裡選取並匯入。</p><p>自動依 Verbal／Quan 分類；Quan 分為粗心、觀念加強。原有筆記不會被覆蓋。</p><button disabled={busy} onClick={()=>input.current?.click()}>選擇訂正檔</button><input ref={input} hidden type="file" accept=".json,application/json" onChange={e=>void select(e.target.files?.[0])}/><div role="status">{message}</div>
+ async function select(file?:File){if(!file)return;setPasted('');setNotes([]);setMessage('');try{if(file.size>6000000)throw Error('檔案太大，請分批匯入。');setNotes(parseCorrections(JSON.parse(await file.text())));}catch(e){setMessage(e instanceof Error?e.message:'無法讀取訂正檔');}finally{if(input.current)input.current.value='';}}
+ async function save(){setBusy(true);setMessage('正在匯入…');try{const r=await fetch('/api/notes/import',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({format:'gre-corrections-v1',notes})});const data=await r.json() as {error?:string;notes:Note[];imported:number;skipped:number};if(!r.ok)throw Error(data.error||'匯入失敗');onSaved(data.notes);setPasted('');setNotes([]);setMessage(`已匯入 ${data.imported} 題，跳過 ${data.skipped} 題已存在的筆記。`);}catch(e){setMessage((e as Error).message+'；可重試，不會覆蓋已匯入的題目。');}finally{setBusy(false);}}
+ return <div className="modal-backdrop"><section className="modal correction-import" role="dialog" aria-modal="true" aria-labelledby="import-title"><h2 id="import-title">匯入訂正</h2><label htmlFor="correction-paste">貼上 GPT 訂正內容</label><textarea id="correction-paste" rows={5} style={{width:"100%"}} value={pasted} disabled={busy} placeholder="貼上後會預覽題目、分類與訂正欄位" onChange={e=>previewPaste(e.target.value)}/><button disabled={busy} onClick={()=>input.current?.click()}>選擇訂正檔</button><input ref={input} hidden type="file" accept=".json,application/json" onChange={e=>void select(e.target.files?.[0])}/><div role="status">{message}</div>
  {notes.map(n=><article key={n.id}><h3>{n.title}</h3><p>{n.section}{n.category?' / '+n.category:''}</p><h4>原始題目</h4><p className="pre">{n.original}</p><p className="pre">{n.source}</p><p className="pre">{n.answer}</p>{n.images.map((url,i)=><img key={i} src={url} alt="原題"/>)}{n.section==='Verbal'&&fields.map(([k,l])=><section key={k}><h4>{l}</h4><p className="pre">{n[k]}</p></section>)}{n.blocks.map((b,i)=>b.type==='text'?<p className="pre" key={i}>{b.text}</p>:b.type==='image'?<img key={i} src={b.url} alt={b.alt}/>:b.type==='table'?<div className="table-scroll" key={i}><table><tbody>{b.rows.map((row,j)=><tr key={j}>{row.map((c,k)=><td key={k}>{c}</td>)}</tr>)}</tbody></table></div>:null)}<h4>錯因（由你填寫）</h4><p className="pre">{n.reason}</p><details><summary>複習題與答案</summary><p className="pre">{n.reviewQuestion}</p><p>{n.reviewAnswer}</p></details></article>)}
  <div className="create-actions"><button disabled={busy} onClick={onClose}>關閉</button><button className="primary" disabled={busy||!notes.length} onClick={save}>{busy?'匯入中…':`確認並匯入${notes.length?' '+notes.length+' 題':''}`}</button></div></section></div>;
 }

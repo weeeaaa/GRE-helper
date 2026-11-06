@@ -8,6 +8,11 @@ const route=load('app/api/notes/import/route.ts',{'cloudflare:workers':{env:{DB}
 const n={id:'I_test',title:'測試',section:'Verbal',original:'Complete original question',vocabulary:'',options:'convoluted = 複雜的\nadulterated = 摻雜、被污染的',clues:'轉折',commentary:'解釋',reason:''};
 function request(notes,origin='https://test.local'){return new Request('https://test.local/api/notes/import',{method:'POST',headers:{origin,'oai-authenticated-user-id':'test'},body:JSON.stringify({format:'gre-corrections-v1',notes})});}
 (async()=>{
+ const payload=JSON.stringify({format:'gre-corrections-v1',notes:[n]});
+ const fenced='```json\r\n'+payload+'\r\n```';
+ for(const text of [payload,fenced,'訂正完成。\n'+fenced+'\n請確認預覽。'])assert.equal(parser.parseCorrectionText(text)[0].options,n.options);
+ assert.throws(()=>parser.parseCorrectionText(fenced+'\n'+fenced));
+ assert.throws(()=>parser.parseCorrectionText(payload.slice(1)));
  assert.throws(()=>parser.parseCorrections({format:'gre-corrections-v1',notes:[{...n,section:'Quan',category:''}]}));
  assert.throws(()=>parser.parseCorrections({format:'gre-corrections-v1',notes:[{...n,blocks:[{type:'table',rows:[null]}]}]}));
  assert.throws(()=>parser.parseCorrections({format:'gre-corrections-v1',notes:[{...n,images:['https://untrusted/image.png']}]}));

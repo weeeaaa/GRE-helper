@@ -1,4 +1,17 @@
 import type {Note} from './types';
+export function parseCorrectionText(input: string): Note[] {
+ if (input.length > 6000000) throw Error('內容太長，請分批匯入。');
+ const text = input.trim();
+ const fences = Array.from(text.matchAll(/^`{3}(?:json)?[^\S\r\n]*\r?\n([\s\S]*?)^`{3}[^\S\r\n]*(?:\r?$)/gim));
+ if (fences.length > 1) throw Error('請一次貼上一個完整訂正區塊，多題可放在同一個區塊。');
+ let value: unknown;
+ try {
+  value = JSON.parse(fences[0]?.[1] ?? text);
+ } catch {
+  throw Error('請複製 GPT 提供的完整訂正格式，從第一個 { 到最後一個 }。');
+ }
+ return parseCorrections(value);
+}
 export function parseCorrections(value:unknown):Note[] {
  const p=value as {format?:unknown;notes?:unknown};
  if(!p||p.format!=='gre-corrections-v1'||!Array.isArray(p.notes)||!p.notes.length||p.notes.length>50)throw Error('請選擇我提供的訂正檔（gre-corrections-v1），每份最多50題。');
