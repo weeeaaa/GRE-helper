@@ -18,9 +18,16 @@ export default function Notebook(){
  const [highlightsPage,setHighlightsPage]=useState(false),[highlightsDirty,setHighlightsDirty]=useState(false);
  const [exportPage,setExportPage]=useState(false);
  const [importOpen,setImportOpen]=useState(false);
+ const [importedTarget,setImportedTarget]=useState<string|null>(null);
  const [vocabPage,setVocabPage]=useState<false|'edit'|'review'>(false),[vocabDirty,setVocabDirty]=useState(false);
  const [creating,setCreating]=useState(false),[newSection,setNewSection]=useState(''),[newCategory,setNewCategory]=useState('');
  const draft=useMemo(()=>storedDraft?withQuanLayout(storedDraft):null,[storedDraft]);
+ useEffect(()=>{
+  if(!importedTarget||draft?.id!==importedTarget)return;
+  document.querySelector('.note-list button.selected')?.scrollIntoView({block:'nearest',inline:'nearest'});
+  document.querySelector('.paper-tools')?.scrollIntoView({block:'start'});
+  setImportedTarget(null);
+ },[importedTarget,draft?.id]);
  const fileRef=useRef<HTMLInputElement>(null),uploadTarget=useRef<'question'|'note'>('note');
  async function load(){try{const r=await fetch('/api/notes');if(r.status===401){setAuth(true);setMessage('登入後即可編輯你的筆記。');return;}if(!r.ok)throw Error('暫時無法讀取筆記，請重試。');const data=await r.json() as Note[];setNotes(data);setDraft(data[0]??null);setLoaded(true);setMessage('所有原始內容已保留');}catch(e){setMessage(String(e instanceof Error?e.message:e));}}
  useEffect(()=>{load();},[]);
@@ -59,18 +66,20 @@ export default function Notebook(){
    setVersions(null);
   }
  }
- function importedNotes(latest:Note[],batchIds:string[]) {
+ function importedNotes(latest:Note[],batchIds:string[],summary:string) {
   setNotes(latest);
   setView('全部錯題');
   setQuery('');
-  if(dirty||vocabDirty||quizDirty||highlightsDirty)return;
+  setMessage(summary);
+  if(dirty||vocabDirty||quizDirty||highlightsDirty){setMessage(summary+' 目前尚未儲存的內容已保留。');return;}
   const known=new Set(notes.map(n=>n.id));
   const target=batchIds.find(id=>!known.has(id))??batchIds[0];
   const first=latest.find(n=>n.id===target);
   if(first){
+   setImportedTarget(first.id);
    setDraft(first);setVersions(null);setQuizPage(false);setVocabPage(false);
    setHighlightsPage(false);setExportPage(false);
-   setMessage('已開啟匯入的題目');
+   setMessage(summary+' 已開啟匯入的題目。');
   }
  }
  const currentIndex=visible.findIndex(n=>n.id===draft?.id);
