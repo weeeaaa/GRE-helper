@@ -1,15 +1,15 @@
 import type {Block, Note} from './types';
 
 /** Project old notes and imported tables into the editor's table + original blocks. */
-export function withQuanLayout(note: Note): Note {
+export function isQuanCorrectionTable(block: Block): block is Extract<Block,{type:'table'}> {
+  return block.type==='table' && block.rows.length===2 &&
+    block.rows[0].length===block.rows[1].length &&
+    ['算式|錯因','算式|觀念|錯因'].includes(block.rows[0].join('|'));
+}
+export function withQuanLayout(note: Note, showEmpty = false): Note {
   if (note.section !== 'Quan') return note;
   const blocks = [...note.blocks];
-  const index = blocks.findIndex(block => {
-    if (block.type !== 'table' || block.rows.length !== 2) return false;
-    const [labels, values] = block.rows;
-    return labels.length === values.length &&
-      ['算式|錯因', '算式|觀念|錯因'].includes(labels.join('|'));
-  });
+  const index = blocks.findIndex(isQuanCorrectionTable);
   const old = index < 0 ? undefined : blocks.splice(index, 1)[0];
   const cells = old?.type === 'table' ? old.rows[1] : [];
   const formula = cells[0] ?? '';
@@ -21,5 +21,6 @@ export function withQuanLayout(note: Note): Note {
   const table: Block = {type:'table', rows: careless
     ? [['算式','錯因'], [formula,reason]]
     : [['算式','觀念','錯因'], [formula,concept,reason]]};
-  return {...note, reason, blocks:[table,...blocks]};
+  const populated=table.rows[1].some(value=>value.trim());
+  return {...note, reason, blocks:populated||showEmpty?[table,...blocks]:blocks};
 }
