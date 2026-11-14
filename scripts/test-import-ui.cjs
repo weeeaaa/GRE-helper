@@ -4,12 +4,12 @@ const layout=load('lib/quan-layout.ts',{}),parser=load('lib/correction-import.ts
 const note=parser.parseCorrections({format:'gre-corrections-v1',notes:[{id:'I_ui',title:'匯入測試',section:'Quan',category:'觀念加強',original:'Original question',blocks:[],reason:''} ]})[0];
 const old={...note,blocks:[{type:'text',text:'保留原解法'},{type:'image',url:'/questions/1.png',alt:'原圖'}]};
 assert.equal(layout.withQuanLayout(old).blocks.length,2);
-assert.equal(layout.withQuanLayout(old,true).blocks.length,3);
+assert.equal(layout.withQuanLayout({...old,reason:'保留錯因'}).blocks.length,2);
 const populated={...old,blocks:[{type:'table',rows:[['算式','觀念','錯因'],['1+1=2','','']]},...old.blocks]};
 assert.equal(layout.withQuanLayout(populated).blocks[0].rows[1][0],'1+1=2');
 const blank={...old,blocks:[{type:'table',rows:[['算式','觀念','錯因'],[' ','','']]},...old.blocks]};
 assert.equal(layout.withQuanLayout(blank).blocks.length,2);
-assert.equal(layout.withQuanLayout({...old,reason:'保留錯因'}).blocks[0].rows[1][2],'保留錯因');
+assert.equal(layout.withQuanLayout({...old,reason:'保留錯因'}).reason,'保留錯因');
 const generic={...old,blocks:[{type:'table',rows:[['A','B'],['1','2'],['3','4']]}]};
 assert(!layout.isQuanCorrectionTable(layout.withQuanLayout(generic).blocks[0]));
 // Execute the actual notebook success handler with React state setters recorded.

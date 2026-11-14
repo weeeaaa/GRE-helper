@@ -6,12 +6,14 @@ export function isQuanCorrectionTable(block: Block): block is Extract<Block,{typ
     block.rows[0].length===block.rows[1].length &&
     ['算式|錯因','算式|觀念|錯因'].includes(block.rows[0].join('|'));
 }
-export function withQuanLayout(note: Note, showEmpty = false): Note {
+export function withQuanLayout(note: Note): Note {
   if (note.section !== 'Quan') return note;
   const blocks = [...note.blocks];
   const index = blocks.findIndex(isQuanCorrectionTable);
+  if(index<0)return note;
   const old = index < 0 ? undefined : blocks.splice(index, 1)[0];
   const cells = old?.type === 'table' ? old.rows[1] : [];
+  if(!cells.some(value=>value.trim()))return {...note,blocks};
   const formula = cells[0] ?? '';
   const concept = cells.length === 3 ? cells[1] : '';
   const reason = cells[cells.length - 1] || note.reason;
@@ -22,5 +24,5 @@ export function withQuanLayout(note: Note, showEmpty = false): Note {
     ? [['算式','錯因'], [formula,reason]]
     : [['算式','觀念','錯因'], [formula,concept,reason]]};
   const populated=table.rows[1].some(value=>value.trim());
-  return {...note, reason, blocks:populated||showEmpty?[table,...blocks]:blocks};
+  return {...note, reason, blocks:populated?[table,...blocks]:blocks};
 }
