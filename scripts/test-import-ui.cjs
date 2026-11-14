@@ -10,6 +10,13 @@ assert.equal(layout.withQuanLayout(populated).blocks[0].rows[1][0],'1+1=2');
 const blank={...old,blocks:[{type:'table',rows:[['算式','觀念','錯因'],[' ','','']]},...old.blocks]};
 assert.equal(layout.withQuanLayout(blank).blocks.length,2);
 assert.equal(layout.withQuanLayout({...old,reason:'保留錯因'}).reason,'保留錯因');
+for(const labels of [['算式','錯因'],['算式','觀念','錯因']]){
+ const legacy={...old,reason:'',blocks:[{type:'table',rows:[labels,labels.map((_,i)=>i===labels.length-1?'只注意到 close，沒有確認 closest。':'')]},...old.blocks]};
+ const cleaned=layout.withQuanLayout(legacy);
+ assert.equal(cleaned.blocks.length,old.blocks.length);
+ assert.equal(cleaned.reason,'只注意到 close，沒有確認 closest。');
+ assert.equal(JSON.stringify(layout.withQuanLayout(cleaned)),JSON.stringify(cleaned));
+}
 const generic={...old,blocks:[{type:'table',rows:[['A','B'],['1','2'],['3','4']]}]};
 assert(!layout.isQuanCorrectionTable(layout.withQuanLayout(generic).blocks[0]));
 // Execute the actual notebook success handler with React state setters recorded.

@@ -18,6 +18,9 @@ export function withQuanLayout(note: Note): Note {
   const concept = cells.length === 3 ? cells[1] : '';
   const reason = cells[cells.length - 1] || note.reason;
   if (note.reason && reason !== note.reason) blocks.push({type:'text', text:'原錯因：'+note.reason});
+  // Older saves may contain a generated table holding only a duplicated reason.
+  // Keep that reason as data, but do not render an empty formula/concept table.
+  if(!formula.trim()&&!concept.trim())return {...note,reason,blocks};
   const careless = note.category === '粗心';
   if (careless && concept) blocks.unshift({type:'text', text:'原觀念：'+concept});
   const table: Block = {type:'table', rows: careless
